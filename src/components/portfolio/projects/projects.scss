@@ -1,0 +1,96 @@
+@import "/src/index.scss";
+
+
+
+.project-wrapper {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2em;
+  padding-top: 1.5em;
+  margin-top: 1em;
+  background-color: $color-bg-variant;
+  border-radius: 2em;
+  text-align: center;
+  border: 2px $color-primary-variant solid;
+//   max-height: 5rem;
+  // * {
+  // padding: 0em 1em 1em 1em;}
+  &*.deploy-link {
+    padding: 0em
+  }
+}
+
+.deploy-link {
+  font-size: 1.5em;
+  color: $color-white;
+  padding: 0em, 1em;
+  &:hover{
+    color: $color-light;
+  }
+}
+
+.repo-link {
+  font-size: .8em;
+  color: $color-white;
+  padding-left: 1em;
+  padding-right: 1em;
+  &:hover{
+    color: $color-light;
+  }
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  // padding: 1em, 1em, 1em, 1em;
+  // margin-top: 5rem;
+  //   margin-right: -20%;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.technologies {
+  font-size: .8rem;
+  padding-top: .5em;
+  color: $color-primary;
+}
+.project-column {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex: 1;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  // margin-top:1em;
+  justify-content: center;
+    &:nth-child(odd) {
+      //   left: 500px;
+      //   position: absolute;
+      // left: calc(50%);
+      // margin-left: -20%
+    }
+    &:nth-child(even) {
+      //   left: 500px;
+      //   position: absolute;
+      // left: calc(50%);
+      // margin-right: -20%
+    }
+}
+
+.about-me-text {
+    // margin-right: -20%
+}
+
+.title {
+  padding-bottom: 1em;
+  font-size: 2em;
+  font-weight: lighter;
+  // padding-top: 1em;
+  color: $color-primary;
+}

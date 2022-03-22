@@ -1,0 +1,48 @@
+@import "/src/index.scss";
+
+.about-me-wrapper {
+  margin: 15px;
+  background-color: $color-bg-variant;
+  border-radius: 2rem;
+  border: 2px rgba(29, 68, 95, 0.4) solid;
+//   max-height: 5rem;
+}
+
+img {
+  border-radius: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  // margin-top: 5rem;
+  border: 5px black;
+//   margin-right: -20%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    justify-content: center;
+    &:nth-child(odd) {
+      //   left: 500px;
+      //   position: absolute;
+      // left: calc(50%);
+      // margin-left: -20%
+    }
+    &:nth-child(even) {
+      //   left: 500px;
+      //   position: absolute;
+      // left: calc(50%);
+    //   margin-right: -20%
+    }
+}
+
+.about-me-text {
+    margin: auto;
+    padding: 1rem;
+}
