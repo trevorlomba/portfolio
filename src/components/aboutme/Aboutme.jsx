@@ -13,9 +13,9 @@ const AboutMe = () => {
 
 My name’s TJ, welcome to my portfolio!
 
-I am a react developer with a background in creative media and digital marketing at high-tech startups.
+I am a react developer with a background in creative marketing and digital marketing analytics at high-tech startups.
 
-Please take some time to check out my work!
+Take some time to check out my projects!
 </div> 
     </div>
     {/* <div className='column'>

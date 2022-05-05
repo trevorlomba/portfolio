@@ -15,23 +15,23 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <DiHtml5 className='icon' />
-              <large>HTML5</large>
+              <large className='txt'>HTML5</large>
             </article>
             <article className="experience__details">
               <DiCss3 className='icon' />
-              <large>CSS3</large>
+              <large className='txt'>CSS3</large>
             </article>
             <article className="experience__details">
               <DiBootstrap className='icon' />
-              <large>bootstrap</large>
+              <large className='txt'>bootstrap</large>
             </article>
             <article className="experience__details">
               <DiReact className='icon' />
-              <large>ReactJS</large>
+              <large className='txt'>ReactJS</large>
             </article>
             <article className="experience__details">
               <DiJavascript1 className='icon' />
-              <large>JavaScript</large>
+              <large className='txt'>JavaScript</large>
             </article>
           </div>
         </div>
@@ -40,23 +40,23 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <DiNodejs className='icon' />
-              <large>NodeJS</large>
+              <large className='txt'>NodeJS</large>
             </article>
             <article className="experience__details">
               <DiJavascript1 className='icon' />
-              <large>Express</large>
+              <large className='txt'>Express</large>
             </article>
-            <article className="experience__details">
+            <article  className="experience__details">
               <DiMongodb className='icon' />
-              <large>MongoDB</large>
+              <large className='txt'>MongoDB</large>
             </article>
             <article className="experience__details">
               <DiPostgresql className='icon' />
-              <large>PostgreSQL</large>
+              <large className='txt'>PostgreSQL</large>
             </article>
             <article className="experience__details">
               <DiPython className='icon' />
-              <large>Python</large>
+              <large className='txt'>Python</large>
             </article>
           </div>
         </div>
