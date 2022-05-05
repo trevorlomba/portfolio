@@ -9,7 +9,10 @@
 }
 
 img {
-  border-radius: 2rem;
+  border-radius: 5rem;
+  border: 2px $color-primary solid;
+  // padding: 1rem;
+  // margin: 1rem;
 }
 
 .row {
@@ -20,6 +23,10 @@ img {
   // margin-top: 5rem;
   border: 5px black;
 //   margin-right: -20%;
+}
+
+.main-img {
+  margin: 1em;
 }
 
 .column {
@@ -44,5 +51,5 @@ img {
 
 .about-me-text {
     margin: auto;
-    padding: 1rem;
+    padding: 3rem;
 }

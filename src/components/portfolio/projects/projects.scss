@@ -1,6 +1,8 @@
 @import "/src/index.scss";
 
-
+img {
+  transition: $transition;
+}
 
 .project-wrapper {
   width: 80%;
@@ -18,22 +20,50 @@
   &*.deploy-link {
     padding: 0em
   }
+
+  &:hover{
+    img {
+      transition: $transition;
+      transform: scale(1.05);
+      // opacity: .75;
+    }
+    // .deploy-link {
+    //   transition: $transition;
+    //   font-size: 1.3em;
+    // }
+  }
 }
 
 .deploy-link {
+  transition: $transition;
   font-size: 1.5em;
-  color: $color-white;
+  font-weight: lighter;
+  color: $color-primary;
   padding: 0em, 1em;
+  &:hover{
+    color: $color-white;
+  }
+}
+
+.project_links {
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+}
+
+.frontend-link {
+  font-size: .8em;
+  color: $color-white;
+  // margin: 1em;
   &:hover{
     color: $color-light;
   }
 }
-
-.repo-link {
+.backend-link {
   font-size: .8em;
   color: $color-white;
+  // margin: 1em;
   padding-left: 1em;
-  padding-right: 1em;
   &:hover{
     color: $color-light;
   }
@@ -41,15 +71,17 @@
 
 .project-row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+  flex: 1;
   // padding: 1em, 1em, 1em, 1em;
   // margin-top: 5rem;
   //   margin-right: -20%;
 }
 
 .project-description {
+  // padding-top: .25em;
   display: flex;
   flex-direction: column;
 }
@@ -57,7 +89,7 @@
 .technologies {
   font-size: .8rem;
   padding-top: .5em;
-  color: $color-primary;
+  color: $color-light
 }
 .project-column {
   display: flex;
@@ -89,8 +121,8 @@
 
 .title {
   padding-bottom: 1em;
-  font-size: 2em;
-  font-weight: lighter;
+  font-size: 2.5em;
+  font-weight: light;
   // padding-top: 1em;
   color: $color-primary;
 }
