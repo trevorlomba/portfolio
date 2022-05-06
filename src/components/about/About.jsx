@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react'
 import './about.scss'
-import ME from '../../assets/rcw-about-img-.png'
+// import ME from '../../assets/rcw-about-img-.png'
 import { FaAward, FaUsers } from 'react-icons/fa'
 import { MdOutlineFolder } from 'react-icons/md'
 
@@ -12,7 +12,7 @@ const About = () => {
     <div className='container about__container'>
       <div className='about__me'>
         <div className='about__me-image'>
-          <img src={ME} alt='Trevor Lomba'/>
+          {/* <img src={} alt='Trevor Lomba'/> */}
         </div>
       </div>
       <div className='about__content'>
