@@ -5,7 +5,7 @@ img {
 }
 
 .project-wrapper {
-  width: 80%;
+  max-width: 80%;
   margin: auto;
   padding-bottom: 2em;
   padding-top: 1.5em;
@@ -86,6 +86,11 @@ img {
   flex-direction: column;
 }
 
+.project-screenshot {
+  width: 70%;
+  margin: auto;
+}
+
 .technologies {
   font-size: .8rem;
   padding-top: .5em;
@@ -101,22 +106,22 @@ img {
   padding-bottom: 2em;
   // margin-top:1em;
   justify-content: center;
-    &:nth-child(odd) {
-      //   left: 500px;
-      //   position: absolute;
-      // left: calc(50%);
-      // margin-left: -20%
-    }
-    &:nth-child(even) {
-      //   left: 500px;
-      //   position: absolute;
-      // left: calc(50%);
-      // margin-right: -20%
-    }
+  &:nth-child(odd) {
+    //   left: 500px;
+    //   position: absolute;
+    // left: calc(50%);
+    // margin-left: -20%
+  }
+  &:nth-child(even) {
+    //   left: 500px;
+    //   position: absolute;
+    // left: calc(50%);
+    // margin-right: -20%
+  }
 }
 
 .about-me-text {
-    // margin-right: -20%
+  // margin-right: -20%
 }
 
 .title {
