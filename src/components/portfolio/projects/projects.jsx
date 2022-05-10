@@ -20,7 +20,7 @@ const Project = ( props ) => {
       <div className="project-column title">{ props.project.title }</div>
       </div>
         <div className='project-row'>
-          <div className='project-column'><a href={props.project.deployedUrl} target="_blank" rel="noreferrer"> <img src={ props.project.img } alt="project screenshot" ></img>
+          <div className='project-column'><a href={props.project.deployedUrl} target="_blank" rel="noreferrer"> <div className="project-screenshot"><img src={props.project.img} alt="project screenshot" ></img></div>
     </a></div>
           <div className='project-column'> <div className="project-description"><div className='project-text'> { props.project.description }
           </div> <div className="technologies">technologies: {props.project.technologies}</div></div>
