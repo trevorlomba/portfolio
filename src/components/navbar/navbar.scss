@@ -1,7 +1,7 @@
 @import "/src/index.scss";
 
 nav {
-  background: rgba(0, 0, 0, 0.3);
+  background: $color-bg-variant;
   // width: max-content;
   // display: block;
   padding: .7rem;
@@ -27,13 +27,14 @@ nav {
   a {
     background: transparent;
     padding: 0.9rem;
+    margin-top: .5rem;
     border-radius: 50%;
     display: flex;
     color: $color-light;
     font-size: 1.3rem;
 
     &:hover {
-      background: $color-primary;
+      background: $color-bg;
       color: $color-primary-variant
     }
 

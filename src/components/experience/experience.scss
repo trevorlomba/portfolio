@@ -23,13 +23,13 @@
     
     &:hover {
       transition: $transition;
-      background: $color-primary-variant;
+      // background: $color-primary-variant;
       border: 2px solid $color-primary;
-      color: $color-primary-variant;
+      // color: $color-primary-variant;
       cursor: default;
       .txt{
         transition: $transition;
-        color: $color-primary-variant;
+        color: $color-discreet;
       }
       h2{
         transition: $transition;
@@ -37,7 +37,7 @@
       }
       .icon {
         transition: $transition;
-        color: $color-primary-variant;
+        color: $color-discreet;
       }
     }
     

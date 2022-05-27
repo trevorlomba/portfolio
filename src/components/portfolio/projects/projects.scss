@@ -38,7 +38,7 @@ img {
   transition: $transition;
   font-size: 1.5em;
   font-weight: lighter;
-  color: $color-primary;
+  color: $color-light;
   padding: 0em, 1em;
   &:hover{
     color: $color-white;
@@ -52,15 +52,16 @@ img {
 }
 
 .frontend-link {
-  font-size: .8em;
+  font-size: 1em;
   color: $color-white;
+  // font-weight: normal;
   // margin: 1em;
   &:hover{
     color: $color-light;
   }
 }
 .backend-link {
-  font-size: .8em;
+  font-size: 1em;
   color: $color-white;
   // margin: 1em;
   padding-left: 1em;
@@ -129,5 +130,5 @@ img {
   font-size: 2.5em;
   font-weight: light;
   // padding-top: 1em;
-  color: $color-primary;
+  color: $color-light;
 }
