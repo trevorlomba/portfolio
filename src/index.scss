@@ -50,7 +50,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   // background-color: $color-bg;
-  background: linear-gradient(220deg,  $color-primary 1%, $color-primary 2.5%,  $color-bg 5%);
+  background: linear-gradient(220deg,  $color-primary 1%, $color-primary 1.5%,  $color-bg 4%), scroll;
   color: $color-white;
   line-height: 1.7;
   // Look for image or look to use a gradient
@@ -76,6 +76,7 @@ h1 {
   font-size: 2.5rem;
    color: $color-bg-variant;
    transition: $transition;
+      padding-top: .5em
 }
 
 // section {
@@ -137,6 +138,7 @@ a:hover {
 .btn:hover {
   background: $color-bg-variant;
   color: $color-bg;
+  // border: 1px solid $color-primary;
   border: transparent;
 }
 
@@ -181,8 +183,8 @@ img {
     margin-bottom: 2rem;
   }
 
-  .app-title {
-    color: $color-white
-  }
+  // .app-title {
+  //   color: $color-white
+  // }
   
 }

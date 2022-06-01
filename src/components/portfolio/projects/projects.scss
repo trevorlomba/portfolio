@@ -5,7 +5,7 @@ img {
 }
 
 .project-wrapper {
-  max-width: 80%;
+  max-width: 85%;
   margin: auto;
   padding-bottom: 2em;
   padding-top: 1.5em;
@@ -25,6 +25,7 @@ img {
     img {
       transition: $transition;
       transform: scale(1.05);
+      border: 2px $color-primary solid;
       // opacity: .75;
     }
     // .deploy-link {
@@ -49,6 +50,7 @@ img {
   display: flex;
   // flex-direction: column;
   justify-content: center;
+  // margin: 1em;
 }
 
 .frontend-link {
@@ -56,15 +58,19 @@ img {
   color: $color-white;
   // font-weight: normal;
   // margin: 1em;
+  &:hover .project-links {
+      color: $color-primary-variant
+    }
   &:hover{
     color: $color-light;
   }
+  margin: 0em 1em;
 }
 .backend-link {
   font-size: 1em;
   color: $color-white;
   // margin: 1em;
-  padding-left: 1em;
+  // padding-left: 1em;
   &:hover{
     color: $color-light;
   }
@@ -85,6 +91,7 @@ img {
   // padding-top: .25em;
   display: flex;
   flex-direction: column;
+  margin: 1em 1.5em 0em 1.5em;
 }
 
 .project-screenshot {
@@ -102,23 +109,12 @@ img {
   flex-direction: row;
   flex-basis: 100%;
   flex: 1;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
+  // padding-left: 2em;
+  // padding-right: 2em;
+  padding: 0em .5em 2em .5em;
+  // padding-bottom: 2em;
   // margin-top:1em;
   justify-content: center;
-  &:nth-child(odd) {
-    //   left: 500px;
-    //   position: absolute;
-    // left: calc(50%);
-    // margin-left: -20%
-  }
-  &:nth-child(even) {
-    //   left: 500px;
-    //   position: absolute;
-    // left: calc(50%);
-    // margin-right: -20%
-  }
 }
 
 .about-me-text {
@@ -128,6 +124,7 @@ img {
 .title {
   padding-bottom: 1em;
   font-size: 2.5em;
+  margin: auto;
   font-weight: light;
   // padding-top: 1em;
   color: $color-light;

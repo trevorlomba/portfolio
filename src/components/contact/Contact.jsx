@@ -4,7 +4,7 @@ import './contact.scss'
 const Contact = () => {
   return (
     <section id='contact'>
-      <h1 className='section-title '>Get in Touch!</h1>
+      <h1 className='section-title '>Let's Keep in Touch!</h1>
       <div className='contact-container'>
         <a href="mailto:trevorlomba@gmail.com" rel="noopener noreferrer" className="contact-link" target="_blank">email</a>
         <a href="tel:5084412186" rel="noopener noreferrer" className="contact-link" target="_blank" >phone</a>

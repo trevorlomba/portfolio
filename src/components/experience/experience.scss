@@ -10,13 +10,15 @@
   .experience__frontend,
   .experience__backend {
     background: $color-bg-variant;
-    padding-bottom: 2em;
-  padding-top: 1.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-
+  //   padding-bottom: 2em;
+  // padding-top: 1.5em;
+  // padding-left: 1.5em;
+  // padding-right: 1.5em;
+    padding: 2em;
+    margin: auto;
+    max-width: 80%;
     border: 2px $color-primary-variant solid;
-    border-radius: 5%;
+    border-radius: 2em;
     transition: $transition;
     color: $color-primary;
     // min-width: 250px;
@@ -24,12 +26,12 @@
     &:hover {
       transition: $transition;
       // background: $color-primary-variant;
-      border: 2px solid $color-primary;
+      // border: 2px solid $color-primary;
       // color: $color-primary-variant;
       cursor: default;
       .txt{
         transition: $transition;
-        color: $color-discreet;
+        color: $color-primary-variant;
       }
       h2{
         transition: $transition;
@@ -37,7 +39,7 @@
       }
       .icon {
         transition: $transition;
-        color: $color-discreet;
+        color: $color-primary-variant;;
       }
     }
     

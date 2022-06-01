@@ -4,7 +4,7 @@ nav {
   background: $color-bg-variant;
   // width: max-content;
   // display: block;
-  padding: .7rem;
+  padding: 1rem;
   // z-index: 2;
   position: fixed;
   // left: 20%;
@@ -12,11 +12,11 @@ nav {
   // transform: translateX(-150%);
   border: 2px $color-primary-variant solid;
   top: 5%;
-  left: -5px;
+  left: -15px;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  border-radius: 0% 35% 35% 0%;
+  border-radius: 0em 2em 2em 0em;
   backdrop-filter: blur(15px);
   
   &:hover {
@@ -35,12 +35,17 @@ nav {
 
     &:hover {
       background: $color-bg;
-      color: $color-primary-variant
+      color: $color-bg-variant
     }
 
     &.active {
-      background: rgba($color-light, $alpha: 0.2);
-      color: $color-white;
+      background: rgba($color-bg, $alpha: 0.2);
+      color: $color-bg;
     }
+  }
+}
+@media screen and (max-width: 2000px) {
+  .nav {
+    border: 3px $color-primary solid;
   }
 }
