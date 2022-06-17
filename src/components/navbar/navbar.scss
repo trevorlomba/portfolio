@@ -10,19 +10,23 @@ nav {
   // left: 20%;
   transition: $transition;
   // transform: translateX(-150%);
-  border: 2px $color-primary-variant solid;
+  // border: 2px $color-bg-variant solid;
   top: 5%;
-  left: -15px;
+  left: -60px;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
   border-radius: 0em 2em 2em 0em;
   backdrop-filter: blur(15px);
+  opacity: 99%;
   
   &:hover {
+    opacity: 100%;
     transition: $transition;
-    transform: translateX(10%);
+    transform: translateX(60%);
+    background-color: $color-bg-variant;
   }
+
 
   a {
     background: transparent;
@@ -39,8 +43,8 @@ nav {
     }
 
     &.active {
-      background: rgba($color-bg, $alpha: 0.2);
-      color: $color-bg;
+      background: rgba($color-bg-variant, $alpha: 1);
+      color: $color-primary;
     }
   }
 }
