@@ -3,12 +3,8 @@ import CV from './../../../assets/TL_resume.pdf'
 
 const DownloadCTA = () => {
   
-  const User = () => {
-    
-  }
-  
   return (
-    <a href={CV} download className='btn'>Resume</a>
+    <a href={CV} target="_blank" className='btn' rel="noopener noreferrer">Resume</a>
   )
 }
 

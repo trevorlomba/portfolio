@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-$color-bg: #6ab4d1;
-$color-bg-variant: #4a7e92;
-$color-primary: #fde57c;
+$color-bg: #f7f1e3;
+$color-bg-variant: #227093;
+$color-primary: #ffda79;
 $color-primary-variant: rgba(29, 68, 95, 0.4);
 $color-white: #fff;
-$color-light: rgba(255, 255, 255, 0.6);
+$color-light: #ffda79;
 $color-sky-blue: #4db5ff;
+$color-discreet: #2c2c54;
 
-$container-width-lg: 85%;
+$container-width-lg: 70%;
 $container-width-md: 86%;
 $container-width-sm: 90%;
 
@@ -49,7 +50,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   // background-color: $color-bg;
-  background: linear-gradient(220deg,  $color-primary 1%, $color-primary 2.5%,  $color-bg 5%);
+  background: linear-gradient(220deg,  $color-primary 1%, $color-primary 1.5%,  $color-bg 4%), scroll;
   color: $color-white;
   line-height: 1.7;
   // Look for image or look to use a gradient
@@ -73,8 +74,9 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
-   color: $color-primary;
+   color: $color-bg-variant;
    transition: $transition;
+      padding-top: .5em
 }
 
 // section {
@@ -113,7 +115,7 @@ a:hover {
 .app-subtitle {
   font-weight: "bolder";
   font-size: 1.5em;
-  color: $color-white;
+  color: $color-bg-variant;
 }
 .section-title {
   font-weight: "bolder";
@@ -124,17 +126,19 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: $color-primary;
+  color: $color-bg-variant;
+  background-color: $color-primary;
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid $color-primary;
+  border: 1px solid $color-bg-variant;
   transition: $transition;
 }
 
 .btn:hover {
-  background: $color-white;
+  background: $color-bg-variant;
   color: $color-bg;
+  // border: 1px solid $color-primary;
   border: transparent;
 }
 
@@ -152,7 +156,7 @@ img {
 #experience, #portfolio, #contact {
   &:hover {
      h1 { 
-     font-size: 3.5rem;
+     font-size: 3.3rem;
      transition: $transition;
      }
    }
@@ -179,8 +183,8 @@ img {
     margin-bottom: 2rem;
   }
 
-  .app-title {
-    color: $color-white
-  }
+  // .app-title {
+  //   color: $color-white
+  // }
   
 }
