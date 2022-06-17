@@ -8,4 +8,10 @@
 .contact-link {
     font-size: 1.5em;
     font-weight: lighter;
+    color: $color-bg-variant;
+    &:hover{
+        
+        color: #84817a;
+        // text-shadow: 1px 1px #84817a
+    }
 }

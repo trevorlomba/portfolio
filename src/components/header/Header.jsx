@@ -6,6 +6,7 @@ import AboutMe from '../aboutme/Aboutme'
 
 const Header = (props) => {
   return (
+    <section id='home'>
     <header ref={props.forwardRef}>
       <div className="container header__container">
         <h1 className='app-title'>TJ Lomba</h1>
@@ -22,6 +23,7 @@ const Header = (props) => {
         {/* <a href='#contact' className='scroll__down'>Contact Me</a> */}
       </div>
     </header>
+    </section>
   )
 }
 

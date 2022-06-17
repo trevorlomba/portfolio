@@ -3,9 +3,9 @@ import DownloadCTA from './cta-download/DownloadCTA'
 
 const CTA = () => {
   return (
-    <div className='cta'>
+    <div className='cta headerbtn'>
       <DownloadCTA />
-      <a href='#contact' className='btn'>Get In Touch</a>
+      <a href='#contact' className='btn headerbtn'>Contact</a>
     </div>
   )
 }
