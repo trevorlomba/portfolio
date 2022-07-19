@@ -10,7 +10,8 @@ nav {
   // left: 20%;
   transition: $transition;
   // transform: translateX(-150%);
-  // border: 2px $color-bg-variant solid;
+  border: 2px $color-primary-variant solid;
+  // border: 2px rgba(29, 68, 95, 0.4) solid;
   top: 5%;
   left: -60px;
   display: flex;
@@ -18,7 +19,7 @@ nav {
   gap: 0.8rem;
   border-radius: 0em 2em 2em 0em;
   backdrop-filter: blur(15px);
-  opacity: 99%;
+  opacity: 100%;
   
   &:hover {
     opacity: 100%;

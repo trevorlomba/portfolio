@@ -10,9 +10,9 @@ const Portfolio = () => {
       <h1 className='section-title '>Portfolio</h1>
     
       <Projects project={metroTrainer}/>
+      <Projects project={scientificCalculator}/>
       <Projects project={xsAndOhs}/>
       <Projects project={basicCalculator}/>
-      <Projects project={scientificCalculator}/>
       <Projects project={talkMore}/>
     </section>
   )

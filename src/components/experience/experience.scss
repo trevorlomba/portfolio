@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  max-width: 100%;
   
   // margin: 0 !important;
 
@@ -16,7 +17,7 @@
   // padding-right: 1.5em;
     padding: 2em;
     margin: auto;
-    max-width: 80%;
+    // max-width: 80%;
     border: 2px $color-primary-variant solid;
     border-radius: 2em;
     transition: $transition;

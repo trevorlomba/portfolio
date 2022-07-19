@@ -8,43 +8,47 @@ import talkMoreImg from '../../../assets/talkMore.png'
 
 export const metroTrainer = {
     'title': 'MetroTrainer',
-    'description': 'A metronome app with added functionality to aid musicians in their practice. The metronome updates every measure with a new random key which the musician is to use as reference to play whichever patterns they are practicing in the new key, in rhythm, every measure.',
+    'description':" A metronome app with functionality to aid musicians in their improvisation and sight-reading practice. Users can select which of the traditional chromatic tones the metronome will playback at the top of every measure. Musicians are to use the changing note tones as a reference to play whichever patterns they are practicing in the new key and in rhythm.",
+    'description2': '\nI used React and React Router to build the majority of this application, along with SCSS for some basic styling. Data such as the ‘notes bucket,’ tempo, and number of measures are stored and updated in state using hooks. Users can create their own accounts and CRUD user preferences as presets via a backend served by Express. The method setTimeout() is integral to the metronome’s rhythm keeping. \n\nFuture iterations of this project will include:\n- Logic to bring the metronome closer to perfect tempo by subtracting the difference in ms between the expected and actual times in ms at the end of the a given beat from the expected beat length passed as an argument to setTimeout() as it is called recursively. \n- Option to shift the tonal centre of the notes bucket randomly after a certain number of measures. \n- User ability ability to alter the rhythm of the audio playback \n- Option to playback arpeggiated note tones following the first beat of each measure. ',
     'deployedUrl': 'https://trevorlomba.github.io/metronome-client/',
     'backendUrl': 'https://github.com/trevorlomba/metronome',
     'frontendUrl': 'https://github.com/trevorlomba/metronome-client',
-    'technologies': 'reactjs, bootstrap, express, mongodb, nodejs, javascript, html, css',
+    'technologies': ['react', 'express', 'mongodb', 'nodejs', 'javascript', 'html', 'css'],
     'frontendText': 'frontend repo',
     'backendText': 'backend repo',
     'img': metroTrainerImg
 }
-export const xsAndOhs = {
-    'title': "X's and Oh's",
-    'description': 'A tic tac toe web app leveraging jQuery, css, and flexbox for gameboard design and responsiveness as well as REST api via express to update game status and user creation / authentication.',
-   'deployedUrl': 'https://trevorlomba.github.io/tictacto-client/',
-    'frontendUrl': 'https://github.com/trevorlomba/tictacto-client',
-    'frontendText': 'frontend repo',
-    'backendText': '',
-    'technologies': 'jQuery, bootstrap, express, mongodb, nodejs, javascript, html, css',
-    'img': xsAndOhsImg
-}
 export const scientificCalculator = {
     'title': 'Scientific Calculator',
-    'description': 'A scientific calculator I built without tutorials or outside help as a personal challenge after completing my basic jQuery calculator. Built using react, this calculator employs efficient logic including field look-ups to streamline the user experience.',
+    'description': 'A scientific calculator built using React and SCSS as a sequel to my basic jQuery calculator. This calculator employs efficient logic including field look-ups to streamline the handling of user input. Unlike my basic calculator, this application leverages mathJS to handle the calculations. State is used to keep track of answers, operands and operators as well as the number of open parenthesis and other details necessary to validate inputs and guarantee functionality.',
+    'description2': '\nI plan to add event listeners for keyboard inputs, input validation for security and functionality, and buttons for additional scientific calculations.',
     'deployedUrl': 'https://trevorlomba.github.io/react-calc/',
     'frontendUrl': 'https://github.com/trevorlomba/scientific-calc',
     'frontendText': 'frontend repo',
     'backendText': '',
-    'technologies': 'jQuery, bootstrap, nodejs, javascript, html, css',
+    'technologies': ['react', 'css', 'javascript'],
     'img': scientificCalculatorImg
+}
+export const xsAndOhs = {
+    'title': "X's and Oh's",
+    'description': 'A traditional tic-tac-toe application featuring responsive UI and user authentication. The game board itself is created using CSS and flexbox with interactive elements enabled through jQuery. As players take turns the game board updates with user messages and game updates. Express is used to enable the REST API and update game status/win tallies as well as user creation and authentication.',
+    'description2': '\nFuture updates of this game will include implementing a simple AI using the minimax algorithm for users to test their skills against.',
+   'deployedUrl': 'https://trevorlomba.github.io/tictacto-client/',
+    'frontendUrl': 'https://github.com/trevorlomba/tictacto-client',
+    'frontendText': 'frontend repo',
+    'backendText': '',
+    'technologies': ['jQuery', 'bootstrap', 'express', 'mongodb', 'nodejs', 'javascript', 'html', 'css'],
+    'img': xsAndOhsImg
 }
 export const basicCalculator = {
     'title': 'Basic Calculator',
-    'description': 'One of my first personal projects, I reasoned out the logic used to make this calculator accurate, interactive and aesthetic. One of my favorite features is how the appearance of the operands, operators, answers, and past equations all update via css as new inputs are selected.',
+    'description': 'A basic calculator built using jQuery and styled via CSS. As this was one of my first coding projects, I actually reasoned out the logic myself using simple logic gates. A creative feature I am most proud of is how the appearance of the operands, operators, answers, and past equations all change as new inputs are selected, depending on their new status in the equation.',
+    'description2': '\nFuture iterations will include an improved aesthetic and event listeners for keyboard inputs, plus data validation to protect against SQL injections and other threats.',
     'deployedUrl': 'https://trevorlomba.github.io/calculator/',
     'frontendUrl': 'https://github.com/trevorlomba/calculator',
     'frontendText': 'frontend repo',
     'backendText': 'backend repo',
-    'technologies': 'jQuery, bootstrap, nodejs, javascript, html, css',
+    'technologies': ['jQuery', 'bootstrap', 'nodejs', 'javascript', 'html', 'css'],
     'img': basicCalculatorImg
 }
 export const myPlaylist = {
@@ -55,7 +59,7 @@ export const myPlaylist = {
     'frontendUrl': 'https://github.com/trevorlomba/my-playlist-client',
     'frontendText': 'frontend repo',
     'backendText': 'backend repo',
-    'technologies': 'jQuery, bootstrap, nodejs, javascript, html, css, mongodb, mongoose',
+    'technologies': ['jQuery', 'bootstrap', 'nodejs', 'javascript', 'html', 'css', 'express'],
     img: myPlaylistImg
 }
 export const talkMore = {
@@ -66,6 +70,6 @@ export const talkMore = {
     'frontendUrl': 'https://github.com/El-1ups/project-frontend',
     'frontendText': 'frontend repo',
     'backendText': 'backend repo',
-    'technologies': 'jQuery, bootstrap, nodejs, javascript, html, css, mongodb, mongoose',
+    'technologies': ['react', 'css', 'express'],
     'img': talkMoreImg
 }

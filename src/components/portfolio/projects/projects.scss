@@ -4,8 +4,28 @@ img {
   transition: $transition;
 }
 
+// .container {
+//   width: 75%;}
+
+.project-text {
+  white-space: pre-line;
+}
+
+.readMore { 
+  color: $color-light;
+  font-size: 80%;
+  // font-weight: lighter;
+  // font-style: italic;
+  padding: 1em 0em;
+
+  &:hover {
+      color: $color-white;
+      transition: $transition;
+      cursor: pointer;
+    }
+}
+
 .project-wrapper {
-  max-width: 85%;
   margin: auto;
   padding-bottom: 2em;
   padding-top: 1.5em;
@@ -40,6 +60,7 @@ img {
   font-size: 1.5em;
   font-weight: lighter;
   color: $color-light;
+  margin-top: -.5em;
   padding: 0em, 1em;
   &:hover{
     color: $color-white;
@@ -101,7 +122,8 @@ img {
 
 .technologies {
   font-size: .8rem;
-  padding-top: .5em;
+  margin-top: -.5em;
+  padding-bottom: .5em;
   color: $color-light
 }
 .project-column {
@@ -126,6 +148,6 @@ img {
   font-size: 2.5em;
   margin: auto;
   font-weight: light;
-  // padding-top: 1em;
-  color: $color-light;
+  color: #ffda79;
+  line-height: 1.1em;
 }
