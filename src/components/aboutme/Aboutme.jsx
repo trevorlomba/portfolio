@@ -29,7 +29,7 @@ const AboutMe = () => {
 								<a href='#contact'>{'reach out'}</a>{' '}
 								<span>
 									{
-										"when you're interested in learning more about me or my work!"
+										"to learn more about me and my work!"
 									}
 								</span>
 							</div>
