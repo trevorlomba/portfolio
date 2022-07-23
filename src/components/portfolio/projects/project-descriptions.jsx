@@ -4,8 +4,20 @@ import scientificCalculatorImg from '../../../assets/scientificCalculator.png'
 import basicCalculatorImg from '../../../assets/basicCalculator.png'
 import myPlaylistImg from '../../../assets/myPlaylist.png'
 import talkMoreImg from '../../../assets/talkMore.png'
+import portfolioImg from '../../../assets/portfolio.png'
 
 
+export const portfolio = {
+    'title': 'Portfolio',
+    'description':"Yes, this very portfolio I built myself with React! I use CSS and Styled Components to achieve the look I wanted, and enable the 'read more' function for the project descriptions by updating state at the project component level. Site navigation is enable through React Router and the badges featured in the Experience section are sourced from React Icons.",
+    'description2': '',
+    'deployedUrl': 'https://trevorlomba.github.io/portfolio/',
+    'frontendUrl': 'https://github.com/trevorlomba/portfolio',
+    'technologies': ['react', 'javascript', 'html5', 'css'],
+    'frontendText': 'frontend repo',
+    'backendText': '',
+    'img': portfolioImg
+}
 export const metroTrainer = {
     'title': 'MetroTrainer',
     'description':" A metronome app with functionality to aid musicians in their improvisation and sight-reading practice. Users can select which of the traditional chromatic tones the metronome will playback at the top of every measure. Musicians are to use the changing note tones as a reference to play whichever patterns they are practicing in the new key and in rhythm.",
@@ -13,17 +25,18 @@ export const metroTrainer = {
     'deployedUrl': 'https://trevorlomba.github.io/metronome-client/',
     'backendUrl': 'https://github.com/trevorlomba/metronome',
     'frontendUrl': 'https://github.com/trevorlomba/metronome-client',
-    'technologies': ['react', 'express', 'mongodb', 'nodejs', 'javascript', 'html', 'css'],
+    'technologies': ['react', 'express', 'mongodb', 'nodejs', 'javascript', 'html5', 'css'],
     'frontendText': 'frontend repo',
     'backendText': 'backend repo',
     'img': metroTrainerImg
 }
+
 export const scientificCalculator = {
     'title': 'Scientific Calculator',
     'description': 'A scientific calculator built using React and SCSS as a sequel to my basic jQuery calculator. This calculator employs efficient logic including field look-ups to streamline the handling of user input. Unlike my basic calculator, this application leverages mathJS to handle the calculations. State is used to keep track of answers, operands and operators as well as the number of open parenthesis and other details necessary to validate inputs and guarantee functionality.',
     'description2': '\nI plan to add event listeners for keyboard inputs, input validation for security and functionality, and buttons for additional scientific calculations.',
     'deployedUrl': 'https://trevorlomba.github.io/react-calc/',
-    'frontendUrl': 'https://github.com/trevorlomba/scientific-calc',
+    'frontendUrl': 'https://github.com/trevorlomba/react-calc',
     'frontendText': 'frontend repo',
     'backendText': '',
     'technologies': ['react', 'css', 'javascript'],
@@ -37,7 +50,7 @@ export const xsAndOhs = {
     'frontendUrl': 'https://github.com/trevorlomba/tictacto-client',
     'frontendText': 'frontend repo',
     'backendText': '',
-    'technologies': ['jQuery', 'bootstrap', 'express', 'mongodb', 'nodejs', 'javascript', 'html', 'css'],
+    'technologies': ['jQuery', 'bootstrap', 'express', 'mongodb', 'nodejs', 'javascript', 'html5', 'css'],
     'img': xsAndOhsImg
 }
 export const basicCalculator = {
@@ -47,29 +60,30 @@ export const basicCalculator = {
     'deployedUrl': 'https://trevorlomba.github.io/calculator/',
     'frontendUrl': 'https://github.com/trevorlomba/calculator',
     'frontendText': 'frontend repo',
-    'backendText': 'backend repo',
-    'technologies': ['jQuery', 'bootstrap', 'nodejs', 'javascript', 'html', 'css'],
+    'backendText': '',
+    'technologies': ['jQuery', 'bootstrap', 'nodejs', 'javascript', 'html5', 'css'],
     'img': basicCalculatorImg
 }
 export const myPlaylist = {
     'title': 'My Playlist',
-    'description': 'A single-page application with user authentication that interacts with a custom API. Registered users can create, read, update, and delete songs as part of a database of playlists.',
+    'description': 'A single-page application with user authentication that interacts with a custom API served by Express. Registered users can create, read, update, and delete songs as part of a database of playlists, which is mapped to rows of a table and displayed on the DOM.',
     'deployedUrl': 'https://trevorlomba.github.io/my-playlist-client/',
     'backendUrl': 'https://github.com/trevorlomba/my-playlist',
     'frontendUrl': 'https://github.com/trevorlomba/my-playlist-client',
     'frontendText': 'frontend repo',
     'backendText': 'backend repo',
-    'technologies': ['jQuery', 'bootstrap', 'nodejs', 'javascript', 'html', 'css', 'express'],
+    'technologies': ['jQuery', 'express', 'bootstrap', 'nodejs', 'javascript', 'html5', 'css'],
     img: myPlaylistImg
 }
 export const talkMore = {
-    'title': 'Talk More',
-    'description': 'Built collaboratively with two of my cohort classmates, talkMore is a message board where users can create, read, delete, and update posts which other users can read and comment on. Front-end built via React and React Router, backend built with mongoDB.',
-    'deployedUrl': 'https://el-1ups.github.io/project-frontend/',
-    'backendUrl': 'https://github.com/El-1ups/project-backend',
-    'frontendUrl': 'https://github.com/El-1ups/project-frontend',
-    'frontendText': 'frontend repo',
-    'backendText': 'backend repo',
-    'technologies': ['react', 'css', 'express'],
-    'img': talkMoreImg
+	title: 'Talk More',
+	description:
+		'Built collaboratively with two of my cohort classmates, talkMore is a message board where users can create, read, delete, and update posts which other users can read and comment on. Front-end built via React and React Router, backend built with mongoDB.',
+	deployedUrl: 'https://el-1ups.github.io/project-frontend/',
+	backendUrl: 'https://github.com/El-1ups/project-backend',
+	frontendUrl: 'https://github.com/El-1ups/project-frontend',
+	frontendText: 'frontend repo',
+	backendText: 'backend repo',
+	technologies: ['react', 'javascript', 'css', 'express', 'mongodb', 'mongoose'],
+	img: talkMoreImg,
 }
