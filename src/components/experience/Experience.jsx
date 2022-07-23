@@ -29,7 +29,6 @@ const Experience = (props) => {
   return (
 		<section id='experience'>
 			<h1 className='section-title'>Technologies</h1>
-
 			<div className='container experience__container'>
 				<div className='experience__frontend'>
 					<h2>Frontend</h2>
@@ -134,8 +133,7 @@ const Experience = (props) => {
 						</article>
 						<article
 							className={`experience__details ${
-								props.experience.find((tech) => tech.name === 'python')
-									.status
+								props.experience.find((tech) => tech.name === 'python').status
 									? 'on'
 									: 'off'
 							}`}
@@ -146,6 +144,9 @@ const Experience = (props) => {
 					</div>
 				</div>
 			</div>
+			<h2 className='section-subtitle'>
+				query the projects below by clicking on the icons!
+			</h2>
 		</section>
 	)
 }
