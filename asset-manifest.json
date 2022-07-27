@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c1a55c54.chunk.css",
-    "main.js": "/portfolio/static/js/main.d0d5e5d0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d0d5e5d0.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.5f854c59.chunk.css",
+    "main.js": "/portfolio/static/js/main.9d5e903b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9d5e903b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c0e15b27.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c0e15b27.js.map",
     "static/js/2.9d96a8a7.chunk.js": "/portfolio/static/js/2.9d96a8a7.chunk.js",
     "static/js/2.9d96a8a7.chunk.js.map": "/portfolio/static/js/2.9d96a8a7.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.c1a55c54.chunk.css.map": "/portfolio/static/css/main.c1a55c54.chunk.css.map",
+    "static/css/main.5f854c59.chunk.css.map": "/portfolio/static/css/main.5f854c59.chunk.css.map",
     "static/js/2.9d96a8a7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9d96a8a7.chunk.js.LICENSE.txt",
-    "static/media/SD-350px.84a56910.jpg": "/portfolio/static/media/SD-350px.84a56910.jpg",
-    "static/media/TL_resume.400bbbcb.pdf": "/portfolio/static/media/TL_resume.400bbbcb.pdf",
+    "static/media/SD-350px.54384577.jpg": "/portfolio/static/media/SD-350px.54384577.jpg",
+    "static/media/TL_resume.1199aaa7.pdf": "/portfolio/static/media/TL_resume.1199aaa7.pdf",
     "static/media/basicCalculator.0ce5408a.png": "/portfolio/static/media/basicCalculator.0ce5408a.png",
     "static/media/metroTrainer.48ca250b.png": "/portfolio/static/media/metroTrainer.48ca250b.png",
     "static/media/myPlaylist.45bb03bb.png": "/portfolio/static/media/myPlaylist.45bb03bb.png",
+    "static/media/myself.eb1fee7c.png": "/portfolio/static/media/myself.eb1fee7c.png",
+    "static/media/myself2.feb943b3.png": "/portfolio/static/media/myself2.feb943b3.png",
+    "static/media/myself3.6ecc6e76.png": "/portfolio/static/media/myself3.6ecc6e76.png",
+    "static/media/myself4.74369f4b.png": "/portfolio/static/media/myself4.74369f4b.png",
+    "static/media/portfolio.6394872c.png": "/portfolio/static/media/portfolio.6394872c.png",
     "static/media/scientificCalculator.dc1bef5f.png": "/portfolio/static/media/scientificCalculator.dc1bef5f.png",
     "static/media/talkMore.7f34ada9.png": "/portfolio/static/media/talkMore.7f34ada9.png",
     "static/media/xsAndOhs.cb16091a.png": "/portfolio/static/media/xsAndOhs.cb16091a.png"
@@ -22,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.c0e15b27.js",
     "static/js/2.9d96a8a7.chunk.js",
-    "static/css/main.c1a55c54.chunk.css",
-    "static/js/main.d0d5e5d0.chunk.js"
+    "static/css/main.5f854c59.chunk.css",
+    "static/js/main.9d5e903b.chunk.js"
   ]
 }
