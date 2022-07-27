@@ -3,6 +3,7 @@
 .contact-container {
     display: grid;
     text-align: center;
+    padding-top: 1rem;
 }
 
 .contact-link {
@@ -11,7 +12,8 @@
     color: $color-bg-variant;
     &:hover{
         
-        color: #84817a;
+        color: $color-light;
+        text-shadow: .03rem .03rem $color-bg-variant ;
         // text-shadow: 1px 1px #84817a
     }
 }

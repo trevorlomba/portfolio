@@ -88,7 +88,12 @@ const App = () => {
 				{user ? <About forwardRef={aboutRef} /> : ''}
 				{/* {user ? <Experience />: ''} */}
 				<Experience experience={experience} setExperience={setExperience} />
-				<Portfolio experience={experience} changeExperience={changeExperience} />
+				{experience.some((o) => o.status === true) ? (
+					<Portfolio
+						experience={experience}
+						changeExperience={changeExperience}
+					/>
+				):''}
 				<Contact />
 			</main>
 			<Footer />

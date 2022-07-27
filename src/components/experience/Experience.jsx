@@ -144,9 +144,11 @@ const Experience = (props) => {
 					</div>
 				</div>
 			</div>
-			<h2 className='section-subtitle'>
-				query the projects below by clicking on the icons!
-			</h2>
+			<h3 className='section-subtitle'>
+				{props.experience.some(o => o.status === true)
+					? 'query my portfolio below by clicking on the icons above!'
+					: 'looks like you have no technologies selected! click on the icons above to query my portfolio'}
+			</h3>
 		</section>
 	)
 }

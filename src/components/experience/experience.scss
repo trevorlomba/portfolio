@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   max-width: 100%;
+  padding-top: 1rem;
   
   // margin: 0 !important;
 
@@ -37,6 +38,7 @@
     .experience__content {
       display: flex;
       flex-wrap: wrap;
+      // margin-top: 5rem;
       // row-gap: 2rem;
 
       .experience__details {
@@ -134,7 +136,7 @@
   .experience__backend {
     width: 80%;
     padding: 2rem;
-    margin: 0 auto;
+    // margin: 0 auto;
 
     .experience__content {
       padding: 1rem;
@@ -153,9 +155,12 @@
   font-style: italic;
   font-size: 90%;
   padding-top: 1em;
+  text-align: center;
 }
 
 // .section-title {
+//   margin-bottom: 10em;
+// }
 //   &:hover {
 //     transition: $transition;
 //     font-size: 110%;
