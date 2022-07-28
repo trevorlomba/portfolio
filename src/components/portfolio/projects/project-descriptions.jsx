@@ -8,15 +8,16 @@ import portfolioImg from '../../../assets/portfolio.png'
 
 
 export const portfolio = {
-    'title': 'Portfolio',
-    'description':"Yes, this very portfolio I built myself with React! I use CSS and Styled Components to achieve the look I wanted, and enable the 'read more' function for the project descriptions by updating state at the project component level. Site navigation is enable through React Router and the badges featured in the Experience section are sourced from React Icons.",
-    'description2': '',
-    'deployedUrl': 'https://trevorlomba.github.io/portfolio/',
-    'frontendUrl': 'https://github.com/trevorlomba/portfolio',
-    'technologies': ['react', 'javascript', 'html5', 'css'],
-    'frontendText': 'frontend repo',
-    'backendText': '',
-    'img': portfolioImg
+	title: 'Portfolio',
+	description:
+		"Yes, this very portfolio I built myself with React! Site navigation is enable through React Router and the badges featured in the Experience section are sourced from React Icons. Querying the projects is achieved by managing technologies to show in state. I use CSS and React Bootstrap to achieve the look I wanted, and enable the 'read more' function for the project descriptions by updating state at the Project Component level. ",
+	description2: '',
+	deployedUrl: 'https://trevorlomba.github.io/portfolio/',
+	frontendUrl: 'https://github.com/trevorlomba/portfolio',
+	technologies: ['react', 'javascript', 'html5', 'css'],
+	frontendText: 'frontend repo',
+	backendText: '',
+	img: portfolioImg,
 }
 export const metroTrainer = {
     'title': 'MetroTrainer',

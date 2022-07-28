@@ -43,25 +43,13 @@ const Project = (props) => {
 								technologies:{' '}
 								{props.project.technologies.map((ele) => ele).join(', ')}
 							</div>
-							{/* <div className='technologies'>
-								technologies: {contains ? 'true' : 'false'}
-							</div> */}
 						</div>
-						{/* <div className='project-column'>
-						{' '} */}
 						<div className='project-description'>
 							<div className='project-text'> {props.project.description}</div>
 							<div className='project-text'>
 								{readMore ? props.project.description2 : ''}
 							</div>
-							{/* </div> */}
-							{/* <div className='column'>
-      <div className='orange-column'>
-      Some Text in Column Two
-      </div>
-    </div> */}
 						</div>
-						{/* <div>{props.experience['html5'] ? 'true' : 'false'}</div> */}
 						<div className='readMore' onClick={() => setReadMore(!readMore)}>
 							{!props.project.description2
 								? ''
@@ -93,12 +81,6 @@ const Project = (props) => {
 							</a>
 						</div>
 						<div>
-							{/* <NavLink to={props.projects.frontendUrl} className='nav-link'>Change Password</NavLink> */}
-							{/* <form>
-        <button onClick={openDeployed()}>DEPLOYED CLIENT</button>
-        <button onClick={openClientRepo()}>CLIENT REPO</button>
-        <button onClick={openBackendRepo()}>BACKEND REPO</button>
-        </form> */}
 						</div>
 					</div>
 				</div>

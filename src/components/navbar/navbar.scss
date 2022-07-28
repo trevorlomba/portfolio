@@ -26,6 +26,11 @@ nav {
     transition: $transition;
     transform: translateX(60%);
     background-color: $color-bg-variant;
+    .nav2 {
+      opacity: 0%;
+        transition: $transition;
+        background-color: transparent;
+    }
   }
 
 
@@ -48,6 +53,64 @@ nav {
       color: $color-primary;
     }
   }
+}
+
+.nav2 {
+  // background: transparent;
+  // width: max-content;
+  // display: block;
+  padding: 1rem;
+  // z-index: 2;
+  position: fixed;
+  // left: 20%;
+  // transition: 0;
+  // transform: translateX(-150%);
+  // border: 0px $color-primary-variant solid;
+  // border: 2px rgba(29, 68, 95, 0.4) solid;
+  top: 5%;
+  left: 65px;
+  display: flex;
+  // flex-direction: column;
+  // gap: 0.8rem;
+  border-radius: 0em 2em 2em 0em;
+  backdrop-filter: blur(0px);
+  opacity: 50%;
+  font-size: 1rem;
+  font-weight: normal;
+  color: $color-bg-variant;
+  writing-mode: vertical-lr;
+  transition: $transition;
+
+  // &:hover {
+  //   opacity: 0%;
+  //   transition: $transition;
+  //   // transform: translateX(60%);
+  //   background-color: $color-bg-variant;
+  // }
+
+
+  a {
+    background: transparent;
+    padding: 0.9rem;
+    margin-top: .5rem;
+    border-radius: 50%;
+    display: flex;
+    color: transparent;
+    font-size: 1.3rem;
+    &:hover {
+      background: transparent;
+      color: transparent;
+    }
+
+    &.active {
+      background: rgba($color-bg-variant, $alpha: 1);
+      color: $color-primary;
+    }
+  }
+}
+
+.navTitle {
+  padding-left: 20px
 }
 @media screen and (max-width: 2000px) {
   .nav {

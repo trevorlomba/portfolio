@@ -45,7 +45,7 @@ const AboutMe = () => {
 							<div className='about-me-text'>
 								<p>
 									{
-										"You can call me TJ, I am a React developer with a background in web design, strategic marketing, and analytics at high-tech startups. \n\n I have extensive professional experience working in highly collaborative environments (both in-person and remote) and a proven track record of excellence in project management, operations, and creative problem solving that I am eager to bring to your development team.\n\n My education includes General Assembly's intensive 24-week, 450+ hour full-stack software engineering immersive program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. I graduated magna cum laude from Babson College with dual-concentrations in business analytics and marketing in 2017."
+										"You can call me TJ, I am a React developer with a background in web design, strategic marketing, and analytics at high-tech startups. \n\n I have extensive professional experience working in highly collaborative environments (both in-person and remote) and a proven track record of excellence in project management, operations, and creative problem solving that I am eager to bring to your development team.\n\n I completed General Assembly's intensive 24-week, 450+ hour full-stack software engineering immersive program in 2022 and graduated magna cum laude from Babson College with dual-concentrations in business analytics and marketing in 2017."
 									}
 								</p>
 								<span>
@@ -56,11 +56,6 @@ const AboutMe = () => {
 							</div>
 						</div>
 					</div>
-					{/* <div className='column'>
-      <div className='orange-column'>
-        Some Text in Column Two
-      </div>
-    </div> */}
 				</div>
 			</div>
 		)
