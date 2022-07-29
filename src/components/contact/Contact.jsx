@@ -3,6 +3,14 @@ import './contact.scss'
 import { useState, useRef } from 'react'
 import { Form, Button } from 'react-bootstrap'
 import emailjs from '@emailjs/browser'
+import {
+	AiFillLinkedin,
+	AiFillGithub,
+	AiFillPhone,
+	AiTwotoneMail,
+	AiOutlineSend,
+} from 'react-icons/ai'
+
 
 const Contact = () => {
   const [email, setEmail] = useState('')
@@ -24,7 +32,9 @@ const Contact = () => {
 			)
 			.then(
 				(result) => {
-					console.log(result.text)
+					setName('')
+					setEmail('')
+					setMessage('')
 				},
 				(error) => {
 					console.log(error.text)
@@ -34,7 +44,7 @@ const Contact = () => {
 
   return (
 		<>
-			<section id='contact'>
+			<section id='contact' className='container'>
 				<div className='contact-wrapper'>
 					<h1 className='section-title '>Let's Keep in Touch!</h1>
 					<div className='contact-container'>
@@ -43,33 +53,63 @@ const Contact = () => {
 							rel='noopener noreferrer'
 							className='contact-link'
 							target='_blank'>
-							email
+							<AiTwotoneMail />
 						</a>
 						<a
 							href='tel:5084412186'
 							rel='noopener noreferrer'
 							className='contact-link'
 							target='_blank'>
-							phone
+							<AiFillPhone />
 						</a>
 						<a
 							href='https://github.com/trevorlomba'
 							rel='noopener noreferrer'
 							className='contact-link'
 							target='_blank'>
-							github
+							<AiFillGithub />
 						</a>
 						<a
 							href='https://www.linkedin.com/in/trevorlomba/'
 							rel='noopener noreferrer'
 							className='contact-link'
 							target='_blank'>
-							linkedin
+							<AiFillLinkedin />
 						</a>
 					</div>
 
-					<div className='my-8'>
-						<Form className='form-container ' onSubmit={sendMessage}>
+					<div className='form-container'>
+						<form ref={form} onSubmit={sendMessage}>
+							<div className='label-container'>
+								<label>Name</label>
+								<input
+									type='text'
+									name='name'
+									value={name}
+									onChange={(event) => setName(event.target.value)}
+								/>
+							</div>
+							<div className='label-container'>
+								<label>Email</label>
+								<input
+									type='email'
+									name='email'
+									value={email}
+									onChange={(event) => setEmail(event.target.value)}
+								/>
+							</div>
+							<div className='label-container'>
+								<label>Message</label>
+								<textarea
+									name='message'
+									value={message}
+									rows={5}
+									onChange={(event) => setMessage(event.target.value)}
+								/>
+							</div>
+							<button type='submit' className='formButton'><AiOutlineSend /></button>
+						</form>
+						{/* <Form className='form-container ' onSubmit={sendMessage}>
 							<div>
 								<Form.Group controlId='name' className='label-container'>
 									<Form.Label className='label'>name</Form.Label>
@@ -136,7 +176,7 @@ const Contact = () => {
 									Submit form
 								</Button>
 							</div>
-						</Form>
+						</Form> */}
 					</div>
 				</div>
 			</section>
