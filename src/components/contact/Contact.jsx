@@ -23,6 +23,11 @@ const Contact = () => {
   const sendMessage = (event) => {
     event.preventDefault();
 
+	if(!message) {
+		console.log('no message')
+		return
+	}
+
     emailjs
 			.sendForm(
 				'service_xbn6upm',
