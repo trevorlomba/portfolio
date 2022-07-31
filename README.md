@@ -2,7 +2,7 @@
 #### by Trevor Lomba
 
 ## Quick Links - 
-* [deployed app](trevorlomba.github.io/portfolio)
+* [deployed app](https://trevorlomba.github.io/portfolio)
 * [frontend repo](https://github.com/trevorlomba/portfolio)
 
 ## Overview
