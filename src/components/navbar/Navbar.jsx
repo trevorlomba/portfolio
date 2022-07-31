@@ -4,6 +4,7 @@ import './navbar.scss'
 import { AiOutlineHome, AiOutlineUser, AiOutlineLogin } from 'react-icons/ai'
 import { MdWorkOutline, MdOutlineMenu, MdOutlineMessage } from 'react-icons/md'
 import { RiGameFill, RiUserVoiceFill, RiHomeSmile2Fill, RiContactsBookFill } from 'react-icons/ri'
+import { AiTwotoneMail } from 'react-icons/ai'
 import { BsFileCodeFill } from 'react-icons/bs'
 
 
@@ -44,7 +45,7 @@ const Navbar = (props) => {
 					href='#contact'
 					onClick={() => setActiveNav('#contact')}
 					className={activeNav === '#contact' ? 'active' : ''}>
-					<RiUserVoiceFill />
+					<AiTwotoneMail />
 				</a>
 				{/* <NavLink to='/sign-in' onClick={onSignIn} className={activeNav === '/sign-in' ? 'active' : ''} title="Sign In"><AiOutlineLogin /></NavLink> */}
 				{/* <NavLink to='/sign-out' onClick={onSignOut} className={activeNav === '/sign-out' ? 'active' : ''} title="Sign Out"><RiLogoutCircleLine /></NavLink> */}
