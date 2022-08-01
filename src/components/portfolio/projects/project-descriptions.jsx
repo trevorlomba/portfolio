@@ -8,7 +8,7 @@ import portfolioImg from '../../../assets/portfolio.png'
 
 
 export const portfolio = {
-	title: 'Portfolio',
+	title: 'Software Engineering Portfolio',
 	description:
 		"Yes, this very portfolio I built myself with React! Site navigation is enable through React Router and the badges featured in the Experience section are sourced from React Icons. Querying the projects is achieved by managing technologies to show in state. I use CSS and React Bootstrap to achieve the look I wanted, and enable the 'read more' function for the project descriptions by updating state at the Project Component level. ",
 	description2: '',
