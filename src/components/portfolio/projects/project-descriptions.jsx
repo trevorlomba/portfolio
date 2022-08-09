@@ -9,7 +9,7 @@ import musicImg from '../../../assets/music.gif'
 
 
 export const music = {
-	title: 'Client Landing Page',
+	title: 'Client Music Player',
 	description:
 		"A React / React Native project I built to be modular and scalable as an affordable service to my clients in the music industry. Meant to be an improvement upon the popular but simplistic linkt.ree service, this web app features song previews and visualizers for multiple pieces of content and gives fans the opportunity to visit artist's top links. Traffic is tracked via a Google Analytics integration and music is streamed from snd.up via the React Howler component library.",
 	description2: '',
@@ -46,7 +46,7 @@ export const metroTrainer = {
 }
 
 export const scientificCalculator = {
-    'title': 'Scientific Calculator',
+    'title': 'React Scientific Calculator',
     'description': 'A scientific calculator built using React and SCSS as a sequel to my basic jQuery calculator. This calculator employs efficient logic including field look-ups to streamline the handling of user input. Unlike my basic calculator, this application leverages mathJS to handle the calculations. State is used to keep track of answers, operands and operators as well as the number of open parenthesis and other details necessary to validate inputs and guarantee functionality.',
     'description2': '\nI plan to add event listeners for keyboard inputs, input validation for security and functionality, and buttons for additional scientific calculations.',
     'deployedUrl': 'https://trevorlomba.github.io/react-calc/',
@@ -68,7 +68,7 @@ export const xsAndOhs = {
     'img': xsAndOhsImg
 }
 export const basicCalculator = {
-    'title': 'Basic Calculator',
+    'title': 'jQuery Calculator',
     'description': 'A basic calculator built using jQuery and styled via CSS. As this was one of my first coding projects, I actually reasoned out the logic myself using simple logic gates. A creative feature I am most proud of is how the appearance of the operands, operators, answers, and past equations all change as new inputs are selected, depending on their new status in the equation.',
     'description2': '\nFuture iterations will include an improved aesthetic and event listeners for keyboard inputs, plus data validation to protect against SQL injections and other threats.',
     'deployedUrl': 'https://trevorlomba.github.io/calculator/',

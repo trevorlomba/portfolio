@@ -142,6 +142,9 @@ a:hover {
   color: $color-bg;
   // border: 1px solid $color-primary;
   border: transparent;
+          transition: $transition;
+            transition-delay: .05s;
+            transition-property: color background;
 }
 
 .btn-primary {

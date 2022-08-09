@@ -1,12 +1,14 @@
 import React from 'react'
 import '../aboutme/aboutme.scss'
 import { useState } from 'react'
-import ME2 from '../../assets/myself2.jpg'
 import ME from '../../assets/myself.jpg'
-import ME4 from '../../assets/myself3.jpg'
-import ME3 from '../../assets/myself4.jpg'
+import ME2 from '../../assets/myself2.jpg'
+import ME3 from '../../assets/myself3.jpg'
+import ME4 from '../../assets/myself4.jpg'
+import ME5 from '../../assets/myself6.jpg'
+import ME6 from '../../assets/myself5.jpg'
 
-const images = [ME, ME2, ME3, ME4]
+const images = [ME6, ME5, ME]
 
 const AboutMe = () => {
 	const [image, setImage] = useState(0)

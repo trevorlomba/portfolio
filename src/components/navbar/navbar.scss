@@ -19,17 +19,20 @@ nav {
   gap: 0.8rem;
   border-radius: 0em 2em 2em 0em;
   backdrop-filter: blur(15px);
-  opacity: 100%;
+  opacity: 1.00;
 
   
   &:hover {
-    opacity: 100%;
+    opacity: 1.00;
     transition: $transition;
     transform: translateX(60%);
     background-color: $color-bg-variant;
     .nav2 {
+        opacity: .00;
         transition: $transition;
         background-color: transparent;
+        transition-delay: .25s;
+        transition-property: opacity;
     }
   }
 
@@ -74,7 +77,7 @@ nav {
   // gap: 0.8rem;
   border-radius: 0em 2em 2em 0em;
   backdrop-filter: blur(0px);
-  opacity: 100%;
+  opacity: 1.00;
   font-size: 1rem;
   font-weight: normal;
   color: $color-bg-variant;
