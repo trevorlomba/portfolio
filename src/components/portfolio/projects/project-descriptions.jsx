@@ -5,8 +5,21 @@ import basicCalculatorImg from '../../../assets/basicCalculator.png'
 import myPlaylistImg from '../../../assets/myPlaylist.png'
 import talkMoreImg from '../../../assets/talkMore.png'
 import portfolioImg from '../../../assets/portfolio.png'
+import musicImg from '../../../assets/music.gif'
 
 
+export const music = {
+	title: 'Client Landing Page',
+	description:
+		"A React / React Native project I built to be modular and scalable as an affordable service to my clients in the music industry. Meant to be an improvement upon the popular but simplistic linkt.ree service, this web app features song previews and visualizers for multiple pieces of content and gives fans the opportunity to visit artist's top links. Traffic is tracked via a Google Analytics integration and music is streamed from snd.up via the React Howler component library.",
+	description2: '',
+	deployedUrl: 'https://trevorlomba.github.io/music-demo/',
+	frontendUrl: 'https://github.com/trevorlomba/music-demo',
+	technologies: ['react', 'react native', 'javascript', 'html5', 'css'],
+	frontendText: 'frontend repo',
+	backendText: '',
+	img: musicImg,
+}
 export const portfolio = {
 	title: 'Software Engineering Portfolio',
 	description:

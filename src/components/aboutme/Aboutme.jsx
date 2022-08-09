@@ -1,8 +1,8 @@
 import React from 'react'
 import '../aboutme/aboutme.scss'
 import { useState } from 'react'
-import ME2 from '../../assets/myself.jpg'
-import ME from '../../assets/myself2.jpg'
+import ME2 from '../../assets/myself2.jpg'
+import ME from '../../assets/myself.jpg'
 import ME4 from '../../assets/myself3.jpg'
 import ME3 from '../../assets/myself4.jpg'
 

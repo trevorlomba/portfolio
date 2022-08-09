@@ -13,10 +13,7 @@ const Experience = (props) => {
     console.log(searchObject)
     const newState = props.experience.map(tech => {
       if (tech.name === exp) {
-        console.log(tech.status)
-        console.log(tech)
         tech.status = !tech.status
-        console.log(tech)
         console.log(tech.status)
       }
       return tech
