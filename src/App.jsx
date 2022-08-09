@@ -16,6 +16,12 @@ import SignIn from "./components/auth/SignIn"
 import SignOut from "./components/auth/SignOut"
 import ChangePassword from "./components/auth/ChangePassword"
 
+import ReactGA from 'react-ga'
+const TRACKING_ID = 'G-XDKM06PV57' // YOUR_OWN_TRACKING_ID
+
+ReactGA.initialize(TRACKING_ID)
+ReactGA.pageview(window.location.pathname + window.location.search)
+
 const App = () => {
   const [user, setUser] = useState(null)
   const [msgAlerts, setMsgAlerts] = useState([])
