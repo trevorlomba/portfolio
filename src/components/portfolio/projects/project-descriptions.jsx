@@ -11,7 +11,7 @@ import musicImg from '../../../assets/music.gif'
 export const music = {
 	title: 'Client Music Player',
 	description:
-		"A React / React Native project I built to be modular and scalable as an affordable service to my clients in the music industry. Meant to be an improvement upon the popular but simplistic linkt.ree service, this web app features song previews and visualizers for multiple pieces of content and gives fans the opportunity to visit artist's top links. Traffic is tracked via a Google Analytics integration and music is streamed from snd.up via the React Howler component library.",
+		"A React project built to be modular and scalable as an affordable service to my client in the music industry. Meant to be an improvement upon the popular but simplistic linkt.ree service, this web app features song previews and visualizers for multiple pieces of content and gives fans the opportunity to visit artist's top links. Traffic is tracked via a Google Analytics integration and music is streamed from snd.up via the React Howler component library. eCommerce backend actively being built using Express.",
 	description2: '',
 	deployedUrl: 'https://trevorlomba.github.io/music-demo/',
 	frontendUrl: 'https://github.com/trevorlomba/music-demo',
@@ -23,7 +23,7 @@ export const music = {
 export const portfolio = {
 	title: 'Software Engineering Portfolio',
 	description:
-		"Yes, this very portfolio I built myself with React! Site navigation is enable through React Router and the badges featured in the Experience section are sourced from React Icons. Querying the projects is achieved by managing technologies to show in state. I use CSS and React Bootstrap to achieve the look I wanted, and enable the 'read more' function for the project descriptions by updating state at the Project Component level. ",
+		"Yes, this very portfolio I built with React! Site navigation is enable through React Router and the badges featured in the Experience section are sourced from React Icons. Querying projects is achieved by managing a project property 'technologies' to be reflected in state. I use CSS and React Bootstrap to achieve the look I wanted, and enable the 'read more' function for the project descriptions by updating state at the Project Component level. ",
 	description2: '',
 	deployedUrl: 'https://trevorlomba.github.io/portfolio/',
 	frontendUrl: 'https://github.com/trevorlomba/portfolio',
