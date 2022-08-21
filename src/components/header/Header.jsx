@@ -10,7 +10,7 @@ const Header = (props) => {
     <header ref={props.forwardRef}>
       <div className="container header__container">
         <h1 className='app-title'>TJ Lomba</h1>
-        <h3 className="app-subtitle">Software Engineer</h3>
+        <h3 className="app-subtitle">Software Developer</h3>
         <CTA />
         {/* <HeaderSocials /> */}
         <AboutMe />
