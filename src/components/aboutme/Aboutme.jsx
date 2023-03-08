@@ -47,14 +47,16 @@ const AboutMe = () => {
 							<div className='about-me-text'>
 								<p>
 									{
-										"You can call me TJ, I am a React developer with a background in web design, strategic marketing, and analytics at high-tech startups. \n\n I have extensive professional experience working in highly collaborative environments (both in-person and remote) and a proven track record of excellence in project management, operations, and creative problem solving that I am eager to bring to your development team.\n\n I completed General Assembly's intensive 24-week, 450+ hour full-stack software engineering immersive program in 2022 and graduated magna cum laude from Babson College with dual-concentrations in business analytics and marketing in 2017."
+										"Hello, my name is TJ. I am a skilled full-stack software developer with a background in business analytics, marketing, and design gained from working with high-tech startups and creative professionals.\n\nThroughout my professional experience, I have thrived in highly collaborative environments, whether they were in-person or remote, and have consistently demonstrated excellence in project management, operations, and creative problem solving.\n\nIn 2022, I completed General Assembly's intensive 24-week, 450+ hour full-stack software engineering immersive program. Prior to that, I graduated magna cum laude from Babson College with dual-concentrations in business analytics and marketing in 2017."
 									}
 								</p>
 								<span>
-									{'\nPlease take some time to check out my projects and'}
+									{
+										'\nI invite you to take a moment to explore my portfolio of projects and '
+									}
 								</span>{' '}
-								<a href='#contact'>{'reach out'}</a>{' '}
-								<span>{'to learn more about me and my work!'}</span>
+								<a href='#contact'>{'connect with me'}</a>{' '}
+								<span>{'to discuss how I may be able to contribute to your team or project. Thank you for your consideration.'}</span>
 							</div>
 						</div>
 					</div>

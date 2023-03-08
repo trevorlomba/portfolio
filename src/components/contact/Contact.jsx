@@ -51,7 +51,7 @@ const Contact = () => {
 		<>
 			<section id='contact' className='container'>
 				<div className='contact-wrapper'>
-					<h1 className='section-title '>Let's Keep in Touch!</h1>
+					<h1 className='section-title '>Connect With Me!</h1>
 					<div className='contact-container'>
 						<a
 							href='mailto:trevorlomba@gmail.com'

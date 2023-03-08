@@ -93,6 +93,7 @@ const App = () => {
 				<Navbar headerRef={headerRef} />
 				{user ? <About forwardRef={aboutRef} /> : ''}
 				{/* {user ? <Experience />: ''} */}
+				<Contact />
 				<Experience experience={experience} setExperience={setExperience} />
 				{experience.some((o) => o.status === true) ? (
 					<Portfolio
@@ -100,7 +101,6 @@ const App = () => {
 						changeExperience={changeExperience}
 					/>
 				):''}
-				<Contact />
 			</main>
 			<Footer />
 		</Router>
