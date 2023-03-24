@@ -1,4 +1,4 @@
-import metroTrainerImg from '../../../assets/metroTrainer.png'
+import metroTrainerImg from '../../../assets/metroTrainer.gif'
 import xsAndOhsImg from '../../../assets/xsAndOhs.png'
 import scientificCalculatorImg from '../../../assets/scientificCalculator.png'
 import basicCalculatorImg from '../../../assets/basicCalculator.png'
