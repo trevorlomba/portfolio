@@ -47,7 +47,8 @@ const Project = (props) => {
 						<div className='project-description'>
 							<div className='project-text'> {props.project.description}</div>
 							<div className='project-text'>
-								{readMore ? props.project.description2 : ''}
+
+								{readMore ? `\n${props.project.description2}` : ''}
 							</div>
 						</div>
 						<div className='readMore' onClick={() => setReadMore(!readMore)}>

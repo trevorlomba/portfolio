@@ -11,11 +11,12 @@ import musicImg from '../../../assets/music.gif'
 export const music = {
 	title: 'Client Music Player',
 	description:
-		"A React project built to be modular and scalable as an affordable service to my client in the music industry. Meant to be an improvement upon the popular but simplistic linkt.ree service, this web app features song previews and visualizers for multiple pieces of content and gives fans the opportunity to visit artist's top links. Traffic is tracked via a Google Analytics integration and music is streamed from snd.up via the React Howler component library. eCommerce backend actively being built using Express.",
-	description2: '',
+		"The application provides users with song previews and visualizers for multiple pieces of content, as well as the ability to access an artist's top links. To enhance the user experience and improve performance, I have implemented lazy loading content, controlled forms, and Context views. The project also boasts a cart functionality that enables clients to update their cart contents and variants dynamically, providing a seamless e-commerce experience. In addition to its other features, the project also incorporates React Router and URL params using hooks to enable smooth navigation and dynamic rendering of content.",
+	description2:
+		'To support the integration with the CommerceJS API, I have adhered to their documentation guidelines, ensuring that the integration is seamless and error-free. Furthermore, the application includes a Google Analytics integration to track traffic, while music streaming is facilitated by the React Howler component library.',
 	deployedUrl: 'https://trevorlomba.github.io/music-demo/',
 	frontendUrl: 'https://github.com/trevorlomba/music-demo',
-	technologies: ['react', 'react native', 'javascript', 'html5', 'css'],
+	technologies: ['react', 'javascript', 'html5', 'css'],
 	frontendText: '',
 	backendText: '',
 	img: musicImg,

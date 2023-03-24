@@ -1,14 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-$color-bg: #f7f1e3;
-$color-bg-variant: #227093;
+// VARIABLES
+$color-bg: #f2f2f2;
+$color-bg-variant: #333333;
+$color-primary: #0077B6;
+$color-primary-variant: rgba(0, 119, 182, 0.4);
+$color-white: #ffffff;
+$color-light: #f2f2f2;
+$color-deselect: #ff9999;
+$color-sky-blue: #1E90FF;
+$color-discreet: #808080;
+// $color-bg: #f7f1e3;
+// $color-bg-variant: #227093;
 $color-primary: #ffda79;
-$color-primary-variant: rgba(29, 68, 95, 0.4);
-$color-white: #fff;
-$color-light: #ffda79;
-$color-deselect: #ffdb7977;
-$color-sky-blue: #4db5ff;
-$color-discreet: #2c2c54;
+// $color-primary-variant: rgba(29, 68, 95, 0.4);
+// $color-white: #fff;
+// $color-light: #ffda79;
+// $color-deselect: #ffdb7977;
+// $color-sky-blue: #4db5ff;
+// $color-discreet: #2c2c54;
 
 $container-width-lg: 75%;
 $container-width-md: 86%;
@@ -16,6 +26,10 @@ $container-width-sm: 90%;
 
 $transition: all 400ms ease;
 
+// FONTS
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+// GENERAL STYLES
 * {
   margin: 0;
   padding: 0;
@@ -50,15 +64,10 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  // background-color: $color-bg;
-  background: linear-gradient(220deg,  $color-primary 1%, $color-primary 1.5%,  $color-bg 4%), scroll;
+  background: linear-gradient(220deg, $color-primary 1%, $color-primary 1.5%, $color-bg 4%), scroll;
   color: $color-white;
-  line-height: 1.7;
-  // Look for image or look to use a gradient
-  // background-image: url("./assets/bg-dots.png");
+  line-height: 1.8;
 }
-
-// General Styles
 
 .container {
   width: $container-width-lg;
@@ -71,29 +80,30 @@ h3,
 h4,
 h5 {
   font-weight: 500;
+  line-height: 1.2;
 }
 
 h1 {
-  font-size: 2.5rem;
-   color: $color-bg-variant;
-   transition: $transition;
-      padding-top: .5em
+  font-size: 3.5rem;
+  color: $color-bg-variant;
+  transition: $transition;
+  padding-top: .5em;
 }
 
-// section {
-//   margin-top: 8rem;
-//   // height: 50vh;
-// }
+section {
+  margin-top: 1rem;
+}
 
-section > h2,
-section > h5 {
+section>h2,
+section>h5 {
   text-align: center;
   color: $color-light;
 }
 
-section > h2 {
+section>h2 {
   color: $color-primary;
   margin-bottom: 3rem;
+  font-size: 2.5rem;
 }
 
 .text-light {
@@ -102,7 +112,7 @@ section > h2 {
 
 a {
   color: $color-primary;
-  transition: all 400ms ease;
+  transition: $transition;
 }
 
 a:hover {
@@ -110,45 +120,46 @@ a:hover {
 }
 
 .app-title {
-  font-weight: "bolder";
-  font-size: 3.5em
+  font-weight: bolder;
+  font-size: 3.5em;
 }
+
 .app-subtitle {
-  font-weight: "bolder";
+  font-weight: bolder;
   font-size: 1.5em;
   color: $color-bg-variant;
 }
+
 .section-title {
-  font-weight: "bolder";
+  font-weight: bolder;
   font-size: 3rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   line-height: 1.1em;
 }
 
 .btn {
-  width: max-content;
   display: inline-block;
-  color: $color-bg-variant;
-  background-color: $color-primary;
+  width: max-content;
   padding: 0.75rem 1.2rem;
+  border: 1px solid $color-bg-variant;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid $color-bg-variant;
+  background-color: $color-primary;
+  color: $color-bg-variant;
   transition: $transition;
 }
 
 .btn:hover {
-  background: $color-bg-variant;
+  background-color: $color-bg-variant;
   color: $color-bg;
-  // border: 1px solid $color-primary;
   border: transparent;
-          transition: $transition;
-            transition-delay: .05s;
-            transition-property: color background;
+  transition: $transition;
+  transition-delay: 0.05s;
+  transition-property: color background;
 }
 
 .btn-primary {
-  background: $color-primary;
+  background-color: $color-primary;
   color: $color-bg;
 }
 
@@ -158,16 +169,16 @@ img {
   object-fit: cover;
 }
 
-#experience, #portfolio {
-  &:hover {
-     h1 { 
-     font-size: 3.3rem;
-     transition: $transition;
-     }
-   }
+#experience:hover h1,
+#portfolio:hover h1 {
+  font-size: 3.3rem;
+  transition: $transition;
 }
 
-// MEDIA QUERIES (MEDIUM DEVICES)
+#home {
+  margin-top: 0rem;
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     width: $container-width-md;
@@ -178,18 +189,12 @@ img {
   }
 }
 
-// MEDIA QUERIES (SMALL DEVICES)
 @media screen and (max-width: 600px) {
   .container {
     width: $container-width-sm;
   }
 
-  .section > h2 {
+  .section>h2 {
     margin-bottom: 2rem;
   }
-
-  // .app-title {
-  //   color: $color-white
-  // }
-  
 }
