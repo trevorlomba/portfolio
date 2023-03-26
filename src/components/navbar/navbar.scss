@@ -80,7 +80,7 @@ nav {
   opacity: 1.00;
   font-size: .8rem;
   font-weight: normal;
-  color:rgba(0, 0, 0, 0.467);
+  color:rgba($color-bg-variant, $alpha: 1);
   writing-mode: vertical-lr;
   transition: $transition;
 

@@ -3,11 +3,14 @@ import ME from '../../assets/myself.jpg'
 import ME2 from '../../assets/myself2.jpg'
 import ME3 from '../../assets/myself3.jpg'
 import ME4 from '../../assets/myself4.jpg'
+import ME7 from '../../assets/myself7.jpg'
+import ME8 from '../../assets/myself8.jpg'
+import ME9 from '../../assets/myself9.jpg'
 import ME5 from '../../assets/myself6.jpg'
 import ME6 from '../../assets/myself5.jpg'
 import '../aboutme/aboutme.scss'
 
-const images = [ME6, ME5, ME]
+const images = [ME, ME6, ME5, ME8, ME7, ME9]
 
 const AboutMe = () => {
 	const [image, setImage] = useState(0)
@@ -83,8 +86,8 @@ const AboutMe = () => {
 		<p>
 			<span className='bold'>
 				I would like to invite you to explore my portfolio of
-				projects. '
-				<a href='#contact'>{'Please connect with me'}</a>' to
+				projects. 
+				<a href='#contact'> Please connect with me</a> to
 				discuss how I can add value to your team or project. Thank
 				you for considering my application.'
 			</span>

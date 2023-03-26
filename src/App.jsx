@@ -35,7 +35,8 @@ const App = () => {
     {id: 6, name: 'express', status: true, icon: ''},
     {id: 7, name: 'mongodb', status: true, icon: ''},
     {id: 8, name: 'postgresql', status: true, icon: ''},
-    {id: 9, name: 'python', status: true, icon: ''}]
+    {id: 9, name: 'python', status: true, icon: ''},
+    {id: 10, name: 'apple scripts', status: true, icon: ''}]
 )
   const clearUser = () => setUser(null)
 

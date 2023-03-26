@@ -49,6 +49,9 @@ img {
   border-radius: 10%;
   max-width: 66%;
   margin-top: 1em;
+  max-height: 50vh;
+  object-fit: cover;
+  object-position: 100% 20%;
   &:hover {
       border-color: azure;}
 }

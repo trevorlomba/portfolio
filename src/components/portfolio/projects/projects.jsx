@@ -47,7 +47,6 @@ const Project = (props) => {
 						<div className='project-description'>
 							<div className='project-text'> {props.project.description}</div>
 							<div className='project-text'>
-
 								{readMore ? `\n${props.project.description2}` : ''}
 							</div>
 						</div>
@@ -58,21 +57,23 @@ const Project = (props) => {
 								? 'read more...'
 								: '...read less'}
 						</div>
-						<a
-							href={props.project.deployedUrl}
-							rel='noopener noreferrer'
-							target='_blank'
-							className='deploy-link'>
-							deployed app
-						</a>
-						<div class='project_links'>
+						{props.project.deployedUrl ? (
+							<a
+								href={props.project.deployedUrl}
+								rel='noopener noreferrer'
+								target='_blank'
+								className='deploy-link'>
+								deployed app
+							</a>
+						) : props.project.frontendUrl ? (
 							<a
 								href={props.project.frontendUrl}
 								rel='noopener noreferrer'
-								className='frontend-link'
+								className='deploy-link'
 								target='_blank'>
 								{props.project.frontendText}
 							</a>
+						) : props.project.backendText ? (
 							<a
 								href={props.project.backendUrl}
 								rel='noopener noreferrer'
@@ -80,9 +81,34 @@ const Project = (props) => {
 								className='backend-link'>
 								{props.project.backendText}
 							</a>
+						) : (
+							''
+						)}
+						<div class='project_links'>
+							{!props.project.deployedUrl ? (
+								''
+							) : (
+								<a
+									href={props.project.frontendUrl}
+									rel='noopener noreferrer'
+									className='frontend-link'
+									target='_blank'>
+									{props.project.frontendText}
+								</a>
+							)}
+							{!props.project.deployedUrl && !props.project.frontendText ? (
+								''
+							) : (
+								<a
+									href={props.project.backendUrl}
+									rel='noopener noreferrer'
+									target='_blank'
+									className='backend-link'>
+									{props.project.backendText}
+								</a>
+							)}
 						</div>
-						<div>
-						</div>
+						<div></div>
 					</div>
 				</div>
 			</div>

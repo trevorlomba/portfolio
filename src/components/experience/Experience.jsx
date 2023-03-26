@@ -3,14 +3,15 @@ import './experience.scss'
 import { DiJavascript1, DiBootstrap, DiHtml5, DiCss3, DiNodejs, DiMongodb, DiPostgresql, DiPython, DiReact } from "react-icons/di";
 
 import { BsFillPatchCheckFill } from 'react-icons/bs'
+import { AiFillApple } from 'react-icons/ai';
 
 const Experience = (props) => {
   const handleExperience = (exp) => {
     // const setExperience = props.setExperience
-    console.log(exp)
-    console.log(props.experience)
+    // console.log(exp)
+    // console.log(props.experience)
     const searchObject= props.experience.find((tech) => tech.name === exp);
-    console.log(searchObject)
+    // console.log(searchObject)
     const newState = props.experience.map(tech => {
       if (tech.name === exp) {
         tech.status = !tech.status
@@ -19,13 +20,18 @@ const Experience = (props) => {
       return tech
     })
     props.setExperience(newState)
-    console.log(props.experience)
+    // console.log(props.experience)
     // const newExp = props.Experience;
     // setExperience(newExp)
   }
   return (
 		<section id='experience'>
 			<h1 className='section-title'>Technologies</h1>
+			<h3 className='section-subtitle'>
+				{props.experience.some((o) => o.status === true)
+					? 'query my projects below by clicking on the tech icons below!'
+					: 'looks like you have no technologies selected! click on the icons below to query projects by technology'}
+			</h3>
 			<div className='container experience__container'>
 				<div className='experience__frontend'>
 					<h2>Frontend</h2>
@@ -138,14 +144,20 @@ const Experience = (props) => {
 							<DiPython className='icon' />
 							<large className='txt'>Python</large>
 						</article>
+						<article
+							className={`experience__details ${
+								props.experience.find((tech) => tech.name === 'apple scripts')
+									.status
+									? 'on'
+									: 'off'
+							}`}
+							onClick={() => handleExperience('apple scripts')}>
+							<AiFillApple className='icon' />
+							<large className='txt'>AppleScripts</large>
+						</article>
 					</div>
 				</div>
 			</div>
-			<h3 className='section-subtitle'>
-				{props.experience.some(o => o.status === true)
-					? 'query my portfolio below by clicking on the icons above!'
-					: 'looks like you have no technologies selected! click on the icons above to query my portfolio'}
-			</h3>
 		</section>
 	)
 }

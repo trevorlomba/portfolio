@@ -6,6 +6,7 @@ import myPlaylistImg from '../../../assets/myPlaylist.png'
 import talkMoreImg from '../../../assets/talkMore.png'
 import portfolioImg from '../../../assets/portfolio.png'
 import musicImg from '../../../assets/music.gif'
+import notionAccessImg from '../../../assets/notionAccess.gif'
 
 
 export const music = {
@@ -17,15 +18,16 @@ export const music = {
 	deployedUrl: 'https://trevorlomba.github.io/music-demo/',
 	frontendUrl: 'https://github.com/trevorlomba/music-demo',
 	technologies: ['react', 'javascript', 'html5', 'css'],
-	frontendText: '',
+	frontendText: 'frontend repo',
 	backendText: '',
 	img: musicImg,
 }
 export const portfolio = {
 	title: 'Software Engineering Portfolio',
 	description:
-		"Yes, this very portfolio I built with React! Site navigation is enable through React Router and the badges featured in the Experience section are sourced from React Icons. Querying projects is achieved by managing a project property 'technologies' to be reflected in state. I use CSS and React Bootstrap to achieve the look I wanted, and enable the 'read more' function for the project descriptions by updating state at the Project Component level. ",
-	description2: '',
+		'This portfolio was developed using React, with React Router enabling site navigation and React Icons providing the badges featured in the Experience section. To achieve the desired design, I utilized CSS and React Bootstrap. Project querying is managed through a state-reflecting project property called "technologies", and the "read more" function is implemented at the Project Component level. ',
+	description2:
+		'In addition to the aforementioned features, this portfolio also includes a navigation bar in the top left corner, providing easy access to all sections of the site. Additionally, a contact form is included to allow visitors to easily get in touch.',
 	deployedUrl: 'https://trevorlomba.github.io/portfolio/',
 	frontendUrl: 'https://github.com/trevorlomba/portfolio',
 	technologies: ['react', 'javascript', 'html5', 'css'],
@@ -101,4 +103,17 @@ export const talkMore = {
 	backendText: 'backend repo',
 	technologies: ['react', 'javascript', 'css', 'express', 'mongodb', 'mongoose'],
 	img: talkMoreImg,
+}
+
+export const notionAccess = {
+	title: 'Custom Notion Accessibility Toolkit',
+	description:
+		'This Git repository contains a set of custom files I designed specifically for composers who have lost their ability to use traditional input methods but still want to create, access, and edit their musical compositions in the Notion program. The suite of tools is built to be used in a macOS environment and requires the use of the Accessibility Keyboard Panel Editor and third-party software called Keyboard Maestro',
+	deployedUrl: '',
+	backendUrl: '',
+	frontendUrl: 'https://github.com/trevorlomba/notion-access',
+	frontendText: 'repo',
+	backendText: '',
+	technologies: ['apple scripts', 'keyboard maestro', 'panel access'],
+	img: notionAccessImg,
 }
