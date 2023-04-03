@@ -7,6 +7,7 @@ import talkMoreImg from '../../../assets/talkMore.png'
 import portfolioImg from '../../../assets/portfolio.png'
 import musicImg from '../../../assets/music.gif'
 import notionAccessImg from '../../../assets/notionAccess.gif'
+import stravaExploraImg from '../../../assets/strava-explora.png'
 
 
 export const music = {
@@ -21,6 +22,19 @@ export const music = {
 	frontendText: 'frontend repo',
 	backendText: '',
 	img: musicImg,
+}
+
+export const stravaExplora = {
+	title: 'Strava Explora',
+	description:
+		"The Strava Explora project is a Python data analysis project that utilizes data from Strava's API. The goal of the project is to create a data-driven approach to my training, which includes a gradual ramp-up of effort over time to reduce the risk of injury. The project includes data visualizations that provide insights into key metrics such as pace, cadence, and max heart rate and demonstrates a strong understanding of data analysis, as well as how to apply that knowledge in the real world.",
+	description2: '',
+	deployedUrl: 'https://github.com/trevorlomba/Strava-Explora',
+	frontendUrl: 'https://github.com/trevorlomba/Strava-Explora',
+	technologies: ['python'],
+	frontendText: 'github repo',
+	backendText: '',
+	img: stravaExploraImg,
 }
 export const portfolio = {
 	title: 'Software Engineering Portfolio',
@@ -112,7 +126,7 @@ export const notionAccess = {
 	deployedUrl: '',
 	backendUrl: '',
 	frontendUrl: 'https://github.com/trevorlomba/notion-access',
-	frontendText: 'repo',
+	frontendText: 'github repo',
 	backendText: '',
 	technologies: ['apple scripts', 'keyboard maestro', 'panel access'],
 	img: notionAccessImg,
