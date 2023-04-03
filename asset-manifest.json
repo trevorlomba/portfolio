@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0bbd8779.chunk.css",
-    "main.js": "/portfolio/static/js/main.47d62e18.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.47d62e18.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d3a707e7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d3a707e7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b8198240.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b8198240.js.map",
     "static/js/2.5a32438b.chunk.js": "/portfolio/static/js/2.5a32438b.chunk.js",
@@ -28,6 +28,7 @@
     "static/media/notionAccess.f56ec32d.gif": "/portfolio/static/media/notionAccess.f56ec32d.gif",
     "static/media/portfolio.dca1ae60.png": "/portfolio/static/media/portfolio.dca1ae60.png",
     "static/media/scientificCalculator.dc1bef5f.png": "/portfolio/static/media/scientificCalculator.dc1bef5f.png",
+    "static/media/strava-explora.00218e67.png": "/portfolio/static/media/strava-explora.00218e67.png",
     "static/media/talkMore.c9836916.png": "/portfolio/static/media/talkMore.c9836916.png",
     "static/media/xsAndOhs.cb16091a.png": "/portfolio/static/media/xsAndOhs.cb16091a.png"
   },
@@ -35,6 +36,6 @@
     "static/js/runtime-main.b8198240.js",
     "static/js/2.5a32438b.chunk.js",
     "static/css/main.0bbd8779.chunk.css",
-    "static/js/main.47d62e18.chunk.js"
+    "static/js/main.d3a707e7.chunk.js"
   ]
 }
