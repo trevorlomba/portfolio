@@ -8,6 +8,7 @@ import portfolioImg from '../../../assets/portfolio.png'
 import musicImg from '../../../assets/music.gif'
 import notionAccessImg from '../../../assets/notionAccess.gif'
 import stravaExploraImg from '../../../assets/strava-explora.png'
+import gptAccessImg from '../../../assets/gpt-access.jpg'
 
 
 export const music = {
@@ -130,4 +131,16 @@ export const notionAccess = {
 	backendText: '',
 	technologies: ['apple scripts', 'keyboard maestro', 'panel access'],
 	img: notionAccessImg,
+}
+export const gptAccess = {
+	title: 'Streamlining Accessibility: An AI-powered Communication App',
+	description:
+		`Embracing accessible tech with my latest creation: an AI-powered app for individuals with special needs. Utilizing React's user- friendly interface, it introduces an on-screen keyboard and intuitive word suggestions.The standout feature is the ChatGPT integration.Users simply choose keywords and context, and the app delivers grammatically correct sentences.A novel approach towards inclusive communication.`,
+	deployedUrl: 'https://trevorlomba.github.io/gpt-access-client/',
+	backendUrl: '',
+	frontendUrl: 'https://github.com/trevorlomba/gpt-access-client',
+	frontendText: 'github repo',
+	backendText: '',
+	technologies: ['react', 'chatgpt', 'javascript', 'css', 'python'],
+	img: gptAccessImg,
 }
