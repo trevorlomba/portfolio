@@ -68,13 +68,13 @@ const AboutMe = () => {
 									<br />
 									<div>
 										<p>
-											My academic accolades and professional pursuits speak for themselves. In 2022, I dedicated myself to General Assembly's demanding 24-week full-stack software engineering program, accumulating over 450 hours of intensive learning and collaborative work. Earlier, I graduated magna cum laude from Babson College in 2017 with a degree in Business Administration concentrating in business analytics and marketing.
+											In 2022, I dedicated myself to General Assembly's demanding 24-week full-stack software engineering immersive, accumulating over 450 hours of intensive learning and collaborative work. Earlier, I graduated magna cum laude from Babson College in 2017 with a degree in Business Administration concentrating in business analytics and marketing.
 										</p>
 									</div>
 									<br />
 									<div>
 										<p className='bold'>
-											I invite you to <a href='#contact'>reach out to me</a>to explore how my expertise aligns with your team's vision and goals. I appreciate your time and consideration.
+											I invite you to <a href='#contact'>reach out</a> to explore how my expertise aligns with your team's vision and goals. I appreciate your time and consideration.
 										</p>
 									</div>
 </div>
