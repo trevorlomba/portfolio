@@ -9,10 +9,11 @@ import musicImg from '../../../assets/music.gif'
 import notionAccessImg from '../../../assets/notionAccess.gif'
 import stravaExploraImg from '../../../assets/strava-explora.png'
 import gptAccessImg from '../../../assets/gpt-access.jpg'
+import musicPortfolioPrototypeImg from '../../../assets/musicSplash.gif'
 
 
 export const music = {
-	title: 'Client Music Player',
+	title: 'Music Merch Cart Demo',
 	description:
 		"The application provides users with song previews and visualizers for multiple pieces of content, as well as the ability to access an artist's top links. To enhance the user experience and improve performance, I have implemented lazy loading content, controlled forms, and Context views. The project also boasts a cart functionality that enables clients to update their cart contents and variants dynamically, providing a seamless e-commerce experience. In addition to its other features, the project also incorporates React Router and URL params using hooks to enable smooth navigation and dynamic rendering of content.",
 	description2:
@@ -28,11 +29,11 @@ export const music = {
 export const stravaExplora = {
 	title: 'Strava Explora',
 	description:
-		"The Strava Explora project is a Python data analysis project that utilizes data from Strava's API. The goal of the project is to create a data-driven approach to my training, which includes a gradual ramp-up of effort over time to reduce the risk of injury. The project includes data visualizations that provide insights into key metrics such as pace, cadence, and max heart rate and demonstrates a strong understanding of data analysis, as well as how to apply that knowledge in the real world.",
+		"The Strava Explora project is a Python data analysis project and React client that utilizes data from Strava's API. The goal of the project is to create a data-driven approach to my training, which includes a gradual ramp-up of effort over time to reduce the risk of injury. The project includes data visualizations that provide insights into key metrics such as pace, cadence, and max heart rate and demonstrates a strong understanding of data analysis, as well as how to apply that knowledge in the real world.",
 	description2: '',
 	deployedUrl: 'https://github.com/trevorlomba/Strava-Explora',
 	frontendUrl: 'https://github.com/trevorlomba/Strava-Explora',
-	technologies: ['python'],
+	technologies: ['python', 'react', 'javascript', 'html5', 'css'],
 	frontendText: 'github repo',
 	backendText: '',
 	img: stravaExploraImg,
@@ -143,4 +144,18 @@ export const gptAccess = {
 	backendText: '',
 	technologies: ['react', 'chatgpt', 'javascript', 'css', 'python'],
 	img: gptAccessImg,
+}
+
+
+export const musicPortfolioPrototype = {
+	title: 'Music Portfolio Prototype for Creatives',
+	description:
+		`Unveiling a dynamic music landing page crafted in React, tailored for modern artists. This platform, enriched with component-based architecture, presents vibrant audio/video previews and a polished merchandise display. With an amalgamation of lazy loading and event-driven design, it ensures seamless user experience. Enhanced with React Router and SCSS, it's a testament to contemporary web design and user engagement.`,
+	deployedUrl: 'https://trevorlomba.github.io/visualizer/',
+	backendUrl: '',
+	frontendUrl: '',
+	frontendText: '',
+	backendText: '',
+	technologies: ['react', 'scss', 'javascript', 'event-driven design', 'tunaJS'],
+	img: musicPortfolioPrototypeImg,
 }

@@ -2,12 +2,12 @@ import React from 'react'
 import Projects from './projects/projects'
 import './portfolio.scss'
 import './projects/projects.scss'
-import { metroTrainer, xsAndOhs, basicCalculator, scientificCalculator, talkMore, myPlaylist, portfolio, music, notionAccess, stravaExplora, gptAccess } from './projects/project-descriptions'
+import { metroTrainer, xsAndOhs, basicCalculator, scientificCalculator, talkMore, myPlaylist, portfolio, music, notionAccess, stravaExplora, gptAccess, musicPortfolioPrototype } from './projects/project-descriptions'
 
 const Portfolio = (props) => {
 
 
-	const projectArray = [gptAccess, music, stravaExplora, notionAccess, metroTrainer, portfolio, talkMore, scientificCalculator, xsAndOhs, basicCalculator, myPlaylist]
+	const projectArray = [musicPortfolioPrototype, gptAccess, stravaExplora, notionAccess, music, metroTrainer, portfolio, talkMore, , myPlaylist, scientificCalculator, xsAndOhs, basicCalculator]
 
 	const renderProjects = () =>
 		projectArray.map((project) => (

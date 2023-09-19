@@ -47,7 +47,7 @@ img {
 .main-img {
   margin: auto;
   border-radius: 10%;
-  max-width: 66%;
+  width: 33%;
   margin-top: 1em;
   max-height: 50vh;
   object-fit: cover;
@@ -64,7 +64,7 @@ img {
     justify-content: center;
     &:nth-child(odd) {
       //   left: 500px;
-      //   position: absolute;
+        // position: absolute;
       // left: calc(50%);
       // margin-left: -20%
     }

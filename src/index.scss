@@ -4,7 +4,8 @@
 $color-bg: #f2f2f2;
 $color-bg-variant: #333333;
 $color-primary: #0077B6;
-$color-primary-variant: rgba(0, 119, 182, 0.4);
+$color-primary-variant: rgb(182, 149, 0);
+$color-primary-variant-2: rgba(0, 76, 182, 0.454);
 $color-white: #ffffff;
 $color-light: #f2f2f2;
 $color-deselect: #ff9999;
@@ -45,6 +46,7 @@ $transition: all 400ms ease;
   --color-bg-variant: $color-bg-variant;
   --color-primary: $color-primary;
   --color-primary-variant: $color-primary-variant;
+  --color-primary-variant-2: $color-primary-variant-2;
   --color-white: $color-white;
   --color-light: $color-light;
   --container-width-lg: $container-width-lg;

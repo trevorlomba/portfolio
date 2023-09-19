@@ -50,13 +50,19 @@ const Project = (props) => {
 								{readMore ? `\n${props.project.description2}` : ''}
 							</div>
 						</div>
-						<div className='readMore' onClick={() => setReadMore(!readMore)}>
-							{!props.project.description2
-								? ''
-								: !readMore
-								? 'read more...'
-								: '...read less'}
+						<div
+							className='readMore'
+							onClick={
+								props.project.description2
+									? () => setReadMore(!readMore)
+									: undefined
+							}
+						>
+							{props.project.description2 && (
+								readMore ? '...read less' : 'read more...'
+							)}
 						</div>
+
 						{props.project.deployedUrl ? (
 							<a
 								href={props.project.deployedUrl}
