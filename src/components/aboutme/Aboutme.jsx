@@ -56,7 +56,7 @@ const AboutMe = () => {
 								<div>
 									<div>
 										<p>
-											Greetings. I am TJ, a seasoned full-stack software developer with a rich background not only in tech but also in business analytics, marketing, and design. Drawing from my extensive experience with cutting-edge startups and diverse creative talents, I've cultivated a holistic perspective on product marketing and software development.
+											Greetings. I am TJ, a seasoned full-stack software developer with a rich background in tech as well as business analytics, marketing, and design. Drawing from extensive experience with cutting-edge startups and diverse creative talents, I've cultivated a holistic perspective on product marketing and software development.
 										</p>
 									</div>
 									<br />
