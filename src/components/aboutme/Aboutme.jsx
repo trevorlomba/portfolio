@@ -10,7 +10,7 @@ import ME5 from '../../assets/myself6.jpg'
 import ME6 from '../../assets/myself5.jpg'
 import '../aboutme/aboutme.scss'
 
-const images = [ME, ME6, ME5, ME8, ME7, ME9]
+const images = [ME, ME5, ME8, ME7]
 
 const AboutMe = () => {
 	const [image, setImage] = useState(0)
