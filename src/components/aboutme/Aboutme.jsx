@@ -54,45 +54,29 @@ const AboutMe = () => {
 							{/* a paragraph div communicating my work */}
 							<div>
 								<div>
-	<div>
-		<p>
-			Greetings, my name is TJ. As a seasoned full-stack software
-			developer, I possess a comprehensive skill set in business
-			analytics, marketing, and design, garnered from working with
-			various high-tech startups and creative professionals.
-		</p>
-	</div>
-	<br/>
-	<div>
-		<p>
-			I excel in collaborative work environments, whether they are
-			remote or in-person, and have consistently demonstrated
-			excellence in project management, operations, and creative
-			problem-solving.
-		</p>
-	</div>
-	<br/>
-	<div>
-		<p>
-			In 2022, I successfully completed General Assembly's
-			rigorous 24-week, 450+ hour full-stack software engineering
-			immersive program. Prior to that, I graduated magna cum
-			laude from Babson College, majoring in business analytics
-			and marketing in 2017.
-		</p>
-	</div>
-	<br/>
-	<div>
-		<p>
-			<span className='bold'>
-				I would like to invite you to explore my portfolio of
-				projects. 
-				<a href='#contact'> Please connect with me</a> to
-				discuss how I can add value to your team or project. Thank
-				you for considering my application.'
-			</span>
-		</p>
-	</div>
+									<div>
+										<p>
+											Greetings. I am TJ, a seasoned full-stack software developer with a rich background not only in tech but also in business analytics, marketing, and design. Drawing from my extensive experience with cutting-edge startups and diverse creative talents, I've cultivated a holistic perspective on product marketing and software development.
+										</p>
+									</div>
+									<br />
+									<div>
+										<p>
+											My strengths partly lie in thriving in both solitary and collaborative environments. Whether working remotely or on-site, my proficiency in project management, operations, and innovative problem-solving are alway/s at the forefront.
+										</p>
+									</div>
+									<br />
+									<div>
+										<p>
+											My academic accolades and professional pursuits speak for themselves. In 2022, I dedicated myself to General Assembly's demanding 24-week full-stack software engineering program, accumulating over 450 hours of intensive learning and collaborative work. Earlier, I graduated magna cum laude from Babson College in 2017 with a degree in Business Administration concentrating in business analytics and marketing.
+										</p>
+									</div>
+									<br />
+									<div>
+										<p className='bold'>
+											I invite you to <a href='#contact'>reach out to me</a>to explore how my expertise aligns with your team's vision and goals. I appreciate your time and consideration.
+										</p>
+									</div>
 </div>
 
 							</div>
